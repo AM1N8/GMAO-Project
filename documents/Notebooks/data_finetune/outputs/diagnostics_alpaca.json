@@ -1,0 +1,3602 @@
+[
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 5.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Informatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Informatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: BROCHE HAAS UMC ",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: BROCHE HAAS UMC \n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 342.0h\n- Coût: 6750.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: Protecteur d'axe X  LT/RT (VF-3 P)  93-2348",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: Protecteur d'axe X  LT/RT (VF-3 P)  93-2348\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 1190.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Electrique\nOrgane: BLOC CONTACT AUX LADN40",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine8\n- Organe affecté: BLOC CONTACT AUX LADN40\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: CABLE ENTRE MOTEUR AXE B/C ET CN 7M",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: CABLE ENTRE MOTEUR AXE B/C ET CN 7M\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Divers\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Divers\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine6.",
+    "input": "Type: Electronique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electronique\n- Machine: machine6\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Programme\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Programme\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Programme\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Programme\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 36.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 53.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Divers\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Divers\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: JOINT TORIQUE",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: JOINT TORIQUE\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 676.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: CABLE CODEUR RCN 2380 AXE B ET C",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: CABLE CODEUR RCN 2380 AXE B ET C\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Automate\nOrgane: KIT MOTRONIX PULSE NG ETHERNET",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Automate\n- Machine: machine2\n- Organe affecté: KIT MOTRONIX PULSE NG ETHERNET\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 17.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 5.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: SERVO MOTEUR AXE Y Z B C 1FT6084-8WF71-3DH1 SIEMENS",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: SERVO MOTEUR AXE Y Z B C 1FT6084-8WF71-3DH1 SIEMENS\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2579.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: ANNEAU D'ARRET UPC P ",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: ANNEAU D'ARRET UPC P \n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Electronique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electronique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine6.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine6\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine3.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine3\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: VITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: VITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 835.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 27.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: KIT PIGNON AVEC COURONNE DENTEE AXE C",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: KIT PIGNON AVEC COURONNE DENTEE AXE C\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1043.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 139.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: CODEUR BROCHE NHX",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: CODEUR BROCHE NHX\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 14.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 4.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine6.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine6\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electronique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electronique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 10.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: KIT PIGNONS AVEC COURONNE AXE B",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: KIT PIGNONS AVEC COURONNE AXE B\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 168.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 5.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 10.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: FILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: FILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: JOINT CERAMIQUE DEUBLIN DS RTR PT12",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: JOINT CERAMIQUE DEUBLIN DS RTR PT12\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 26061.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Hydraulique\nOrgane: FLEXIBLE HYDRAULIQUE 2,60 * 150 bar ",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine4\n- Organe affecté: FLEXIBLE HYDRAULIQUE 2,60 * 150 bar \n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 22.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Automate\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Automate\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: DETECTEUR DE SERRAGE BROCHE ",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: DETECTEUR DE SERRAGE BROCHE \n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 50.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine3.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine3\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine3.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine3\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Informatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Informatique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 7.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Automate\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Automate\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Divers\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Divers\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 0.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: VITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: VITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 4.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: JOINT TORIQUE",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: JOINT TORIQUE\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 9.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Programme\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Programme\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 8.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 0.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Informatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Informatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Divers\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Divers\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 0.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: ROULEMENT 6205 2RS",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: ROULEMENT 6205 2RS\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2273.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine3.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine3\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine9.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine9\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine3.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine3\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 49.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: POMPE & TETE POMPE DE LUBRIFICATION AXE B ET C",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: POMPE & TETE POMPE DE LUBRIFICATION AXE B ET C\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 10.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine9.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine9\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: POMPE & TETE POMPE DE LUBRIFICATION AXE B ET C",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: POMPE & TETE POMPE DE LUBRIFICATION AXE B ET C\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine8.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine8\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine9.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine9\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 6.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: CODEUR BROCHE CPLT",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: CODEUR BROCHE CPLT\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 1041.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: PINCE CHANGEUR D'OUTIL",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: PINCE CHANGEUR D'OUTIL\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 120.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Programme\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Programme\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: PINCE DE BROCHE HSK A63X599059",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: PINCE DE BROCHE HSK A63X599059\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Divers\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Divers\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: GUIDAGE LINEAIRE AXE Y RAIL",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: GUIDAGE LINEAIRE AXE Y RAIL\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 16.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 408.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: JOINT TORIQUE 50.52X1.78",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: JOINT TORIQUE 50.52X1.78\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 2.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 7.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Automate\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Automate\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine12.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine12\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: LAMPE DE CABINE DMU",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: LAMPE DE CABINE DMU\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Electrique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Electrique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 3.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Pneumatique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Pneumatique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 1.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine2.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine2\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine5.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine5\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine4.",
+    "input": "Type: Arrosage\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Arrosage\n- Machine: machine4\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine10.",
+    "input": "Type: Mécanique\nOrgane: KIT REPARATION MANDRIN UPC P ",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine10\n- Organe affecté: KIT REPARATION MANDRIN UPC P \n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 7.0h\n- Coût: nan",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine1.",
+    "input": "Type: Mécanique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Mécanique\n- Machine: machine1\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: 40.0h\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Fournis un diagnostic technique détaillé pour cette panne sur machine7.",
+    "input": "Type: Hydraulique\nOrgane: nan",
+    "output": "DIAGNOSTIC TECHNIQUE\n\nSYMPTÔMES OBSERVÉS:\n- Type: Hydraulique\n- Machine: machine7\n- Organe affecté: nan\n\nANALYSE:\nAnalyse en cours\n\nINTERVENTION:\nÀ définir\n\nRÉSULTAT:\n- Durée: nanh\n- Coût: 0.0",
+    "metadata": {
+      "dataset_type": "diagnostics",
+      "source": "GMAO"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+% ============================================================
+% Chapitre 17 : Perspectives d'Évolution
+% ============================================================
+
+\chapter{Perspectives d'Évolution}
+\label{chap:future}
+
+\section{Feuille de Route}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=0.6cm]
+    \node[rectangle, draw=primary, fill=primary!15, minimum width=10cm, minimum height=0.7cm] (v21) {\textbf{v2.1} -- Améliorations IA et Performance};
+    \node[rectangle, draw=secondary, fill=secondary!15, minimum width=10cm, minimum height=0.7cm, below=of v21] (v22) {\textbf{v2.2} -- Intégrations Externes};
+    \node[rectangle, draw=accent, fill=accent!15, minimum width=10cm, minimum height=0.7cm, below=of v22] (v30) {\textbf{v3.0} -- Multi-tenancy et Enterprise};
+\end{tikzpicture}
+\caption{Feuille de route}
+\label{fig:roadmap}
+\end{figure}
+
+\section{Version 2.1 -- Court Terme}
+
+\subsection{Intelligence Artificielle}
+
+\begin{itemize}
+    \item \textbf{RAG} : Support PDF natif, recherche hybride, historique multi-tour
+    \item \textbf{Prédiction} : Modèles LSTM, saisonnalité, fleet-level analytics
+    \item \textbf{OCR} : Support multi-pages, extraction formulaires structurés
+\end{itemize}
+
+\subsection{Performance}
+
+Agrégation KPIs pré-calculée, pagination curseurs, compression gzip, intégration Prometheus/Grafana.
+
+\section{Version 2.2 -- Intégrations}
+
+\begin{table}[H]
+\centering
+\caption{Intégrations prévues}
+\label{tab:integrations}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Système} & \textbf{Type} & \textbf{Fonctionnalité} \\
+\midrule
+SAP PM & ERP & Import/sync équipements et OT \\
+SCADA/OPC-UA & IoT & Données temps réel machines \\
+Microsoft 365 & Productivité & Notifications, calendrier \\
+Power BI & Analytics & Export reporting avancé \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Notifications et API}
+
+Push PWA, alertes email, Slack/Teams, SMS critiques. Endpoint GraphQL, WebSocket temps réel, webhooks sortants, API versioning.
+
+\section{Version 3.0 -- Enterprise}
+
+\subsection{Multi-tenancy}
+
+Isolation données par organisation, personnalisation par tenant, quotas et limites configurables.
+
+\subsection{Sécurité Enterprise}
+
+SSO SAML 2.0, LDAP/AD, MFA obligatoire, audit trail immutable, conformité RGPD.
+
+\subsection{Fonctionnalités Avancées}
+
+\begin{itemize}
+    \item \textbf{Workflows} : Designer graphique, approbations multi-niveaux, escalations
+    \item \textbf{Reporting} : Générateur personnalisé, dashboards configurables
+    \item \textbf{Mobile} : App iOS/Android native, mode hors-ligne, QR codes
+\end{itemize}
+
+\section{Évolutions Techniques}
+
+Microservices optionnel, Kubernetes, event sourcing, fine-tuning LLM sur données GMAO, vision AI inspection.
+
+\section{Conclusion}
+
+ProAct constitue une base solide pour une GMAO moderne intégrant l'IA. Les évolutions visent à renforcer les capacités prédictives, faciliter l'intégration, répondre aux exigences enterprise, et améliorer l'expérience utilisateur.

@@ -1,0 +1,2702 @@
+[
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine12. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine12:\n\n2017-08: 2 interventions\n2017-09: 1 interventions\n2017-11: 1 interventions\n2017-12: 1 interventions\n2018-04: 1 interventions\n2018-08: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine7. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine7:\n\n2018-08: 2 interventions\n2018-09: 2 interventions\n2018-10: 2 interventions\n2018-11: 4 interventions\n2018-12: 3 interventions\n2019-01: 2 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine3. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine3:\n\n2023-11: 4 interventions\n2023-12: 1 interventions\n2024-01: 3 interventions\n2024-02: 7 interventions\n2024-03: 6 interventions\n2024-04: 5 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine10. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine10:\n\n2018-12: 4 interventions\n2022-01: 4 interventions\n2022-10: 1 interventions\n2023-03: 1 interventions\n2023-12: 1 interventions\n2025-02: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine8. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine8:\n\n2019-01: 1 interventions\n2019-02: 1 interventions\n2019-03: 1 interventions\n2019-04: 3 interventions\n2019-05: 1 interventions\n2019-06: 2 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine4. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine4:\n\n2016-10: 2 interventions\n2016-11: 3 interventions\n2017-01: 4 interventions\n2017-02: 14 interventions\n2017-03: 3 interventions\n2017-04: 12 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine11. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine11:\n\n2023-11: 1 interventions\n2023-12: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine5. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine5:\n\n2019-09: 1 interventions\n2019-10: 2 interventions\n2019-12: 6 interventions\n2020-01: 4 interventions\n2020-02: 2 interventions\n2020-03: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine2. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine2:\n\n2016-07: 1 interventions\n2016-11: 2 interventions\n2017-01: 5 interventions\n2017-02: 2 interventions\n2017-03: 5 interventions\n2017-04: 3 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine1. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine1:\n\n2016-07: 1 interventions\n2016-08: 1 interventions\n2016-10: 11 interventions\n2016-11: 29 interventions\n2016-12: 24 interventions\n2017-01: 14 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine6. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine6:\n\n2016-07: 3 interventions\n2016-11: 2 interventions\n2016-12: 2 interventions\n2017-02: 3 interventions\n2017-03: 4 interventions\n2017-04: 1 interventions\n\nTendance: DIMINUTION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Analyse l'évolution temporelle des pannes sur machine9. Identifie les tendances.",
+    "input": "",
+    "output": "TENDANCE TEMPORELLE\n\nAnalyse pour machine9:\n\n2019-06: 1 interventions\n2019-07: 3 interventions\n2019-08: 1 interventions\n2019-10: 2 interventions\n2019-12: 1 interventions\n2020-02: 1 interventions\n\nTendance: AUGMENTATION des pannes",
+    "metadata": {
+      "dataset_type": "timeseries",
+      "source": "GMAO"
+    }
+  }
+]

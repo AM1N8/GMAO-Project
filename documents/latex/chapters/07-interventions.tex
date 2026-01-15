@@ -1,0 +1,107 @@
+% ============================================================
+% Chapitre 7 : Système d'Interventions
+% ============================================================
+
+\chapter{Système d'Interventions}
+\label{chap:interventions}
+
+\section{Vue d'Ensemble}
+
+Le module d'interventions constitue le cœur opérationnel du système GMAO. Il gère l'ensemble du cycle de vie des ordres de travail de maintenance.
+
+\begin{conceptbox}[Définition - Intervention]
+Une \textbf{intervention} représente une action de maintenance : \textbf{corrective} (suite à panne), \textbf{préventive} (planifiée), ou \textbf{améliorative} (upgrade).
+\end{conceptbox}
+
+\section{Cycle de Vie}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=1.5cm,
+    state/.style={
+        rectangle,
+        rounded corners=4pt,
+        draw,
+        minimum width=1.8cm,
+        minimum height=0.6cm,
+        font=\footnotesize\bfseries
+    }
+]
+    \node[state, fill=warning!30, draw=warning] (open) {OPEN};
+    \node[state, fill=primary!30, draw=primary, right=of open] (progress) {IN\_PROGRESS};
+    \node[state, fill=success!30, draw=success, right=of progress] (completed) {COMPLETED};
+    \node[state, fill=gray!30, draw=darkgray, right=of completed] (closed) {CLOSED};
+    \node[state, fill=danger!30, draw=danger, below=1cm of progress] (cancelled) {CANCELLED};
+    
+    \draw[arrow] (open) -- node[above, font=\tiny] {Assign} (progress);
+    \draw[arrow] (progress) -- node[above, font=\tiny] {Fini} (completed);
+    \draw[arrow] (completed) -- node[above, font=\tiny] {Valid} (closed);
+    \draw[arrow] 
+    (open.south) -- ++(0,-0.3) -| ([xshift=3mm]cancelled.west);
+    \draw[arrow] (progress.south) -- (cancelled.north);
+\end{tikzpicture}
+\caption{États du cycle de vie}
+\label{fig:intervention-lifecycle}
+\end{figure}
+
+\section{Création d'une Intervention}
+
+Via \api{POST /api/interventions/} avec :
+
+\begin{itemize}
+    \item \textbf{equipment\_id} (requis) : Identifiant équipement
+    \item \textbf{type\_panne} : Classification
+    \item \textbf{categorie\_panne} : Catégorie
+    \item \textbf{cause} : Cause identifiée
+    \item \textbf{date\_demande} : Date de la demande
+\end{itemize}
+
+\section{Assignation et Pièces}
+
+L'assignation crée un \tech{TechnicianAssignment} (technicien, heures, taux). L'ajout de pièces via \api{POST /api/interventions/\{id\}/parts} vérifie le stock et décrémente automatiquement.
+
+\section{Requêtes et Filtrage}
+
+\begin{table}[H]
+\centering
+\caption{Paramètres de filtrage}
+\label{tab:intervention-filters}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Paramètre} & \textbf{Type} & \textbf{Description} \\
+\midrule
+skip/limit & int & Pagination \\
+status & enum & Filtrer par statut \\
+equipment\_id & int & Filtrer par équipement \\
+start\_date & date & Début de période \\
+end\_date & date & Fin de période \\
+type\_panne & string & Recherche par type \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Données Capturées}
+
+\begin{table}[H]
+\centering
+\caption{Données par intervention}
+\label{tab:intervention-data}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Donnée} & \textbf{Type} & \textbf{Utilisation} \\
+\midrule
+Durée indisponibilité & Float (heures) & Calcul MTTR \\
+Coût matériel & Float (€) & Analyse coûts \\
+Coût main d'œuvre & Float (€) & Analyse coûts \\
+Type de panne & String & Distribution \\
+Date intervention & Date & Tendances \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{infobox}[Traçabilité]
+Chaque intervention maintient un historique complet : horodatages, transitions de statut, assignations.
+\end{infobox}

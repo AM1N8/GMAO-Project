@@ -1,0 +1,109 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: PROACT_POSTGRES
+    environment:
+      POSTGRES_USER: gmao_user
+      POSTGRES_PASSWORD: gmao_password
+      POSTGRES_DB: gmao_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gmao_user -d gmao_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - proact-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: PROACT_REDIS
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - proact-network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: PROACT_OLLAMA
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    #healthcheck:
+    #  test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+    #  interval: 60s
+    #  timeout: 30s
+    #  retries: 5
+    networks:
+      - proact-network
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # Remove GPU reservation if not available:
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '4'
+    #       memory: 8G
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: PROACT_BACKEND
+    environment:
+      DATABASE_URL: postgresql://gmao_user:gmao_password@db:5432/gmao_db
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL: qwen2.5:3b
+      OLLAMA_EMBEDDING_MODEL: nomic-embed-text
+      ENABLE_CACHE: "true"
+      ENABLE_QUERY_LOGGING: "true"
+      JWT_SECRET: "super-secret-jwt-token-with-at-least-32-characters-long"
+      JWT_ALGORITHM: "HS256"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+      - rag_uploads:/app/data/uploads
+      - rag_indexes:/app/data/faiss_indexes
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      #ollama:
+      #  condition: service_healthy
+    networks:
+      - proact-network
+
+volumes:
+  postgres_data:
+  redis_data:
+  ollama_data:
+  rag_uploads:
+  rag_indexes:
+  ocr_temp:
+
+networks:
+  proact-network:
+    driver: bridge

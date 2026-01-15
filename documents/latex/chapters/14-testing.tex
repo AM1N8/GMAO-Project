@@ -1,0 +1,81 @@
+% ============================================================
+% Chapitre 14 : Tests et Validation
+% ============================================================
+
+\chapter{Tests et Validation}
+\label{chap:testing}
+
+\section{Stratégie de Test}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=0.4cm,
+    level/.style={
+        rectangle,
+        draw,
+        minimum height=0.7cm,
+        text centered,
+        font=\small
+    }
+]
+    \node[level, fill=success!30, minimum width=7cm] (unit) {Tests Unitaires (70\%)};
+    \node[level, fill=primary!30, minimum width=5cm, above=of unit] (int) {Tests Intégration (20\%)};
+    \node[level, fill=accent!30, minimum width=3cm, above=of int] (e2e) {Tests E2E (10\%)};
+\end{tikzpicture}
+\caption{Pyramide des tests}
+\label{fig:test-pyramid}
+\end{figure}
+
+\section{Tests Backend}
+
+\subsection{Structure}
+
+Tests dans \file{backend/tests/} : conftest.py (fixtures), test\_equipment.py, test\_interventions.py, test\_kpi.py, test\_security.py.
+
+\subsection{Fixtures Pytest}
+
+\begin{itemize}
+    \item \textbf{db\_session} : SQLite en mémoire
+    \item \textbf{client} : TestClient FastAPI
+    \item \textbf{auth\_headers} : Headers JWT de test
+\end{itemize}
+
+\subsection{Tests Unitaires}
+
+Calcul MTBF/MTTR, Disponibilité bornée 0-100\%, retour null si données insuffisantes.
+
+\subsection{Tests Intégration API}
+
+Création POST, lecture GET avec pagination/filtres, mise à jour PUT, suppression DELETE, codes d'erreur (401, 403, 404).
+
+\section{Tests Frontend E2E}
+
+Playwright simule les parcours : navigation, authentification, formulaires, assertions.
+
+\section{Couverture de Code}
+
+\begin{table}[H]
+\centering
+\caption{Couverture cible}
+\label{tab:coverage-targets}
+\small
+\begin{tabularx}{\textwidth}{@{}X c c@{}}
+\toprule
+\textbf{Module} & \textbf{Actuel} & \textbf{Cible} \\
+\midrule
+Services (KPI, Copilot) & 75\% & 80\% \\
+Routers & 70\% & 75\% \\
+Models/Schemas & 90\% & 90\% \\
+Security & 85\% & 90\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{CI/CD Testing}
+
+Pipeline GitHub Actions : checkout, setup Python, tests avec couverture, upload Codecov, seuil 70\% minimum.
+
+\begin{infobox}[Bonnes Pratiques]
+Chaque nouvelle fonctionnalité doit avoir des tests. Les bugs corrigés doivent inclure un test de non-régression.
+\end{infobox}

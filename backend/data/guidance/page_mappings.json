@@ -1,0 +1,361 @@
+{
+    "/home/equipment": {
+        "page_name": "Equipment Management",
+        "description": "View and manage equipment/assets in the maintenance system",
+        "available_actions": [
+            {
+                "action": "view_equipment_list",
+                "ui_element": "Equipment Table",
+                "description": "View all equipment in a table format"
+            },
+            {
+                "action": "search_equipment",
+                "ui_element": "Search Bar",
+                "description": "Search for equipment by name, type, or location"
+            },
+            {
+                "action": "view_equipment_details",
+                "ui_element": "Equipment Row",
+                "description": "Click on equipment to view detailed information"
+            },
+            {
+                "action": "filter_equipment",
+                "ui_element": "Filter Controls",
+                "description": "Filter equipment by status, type, or location"
+            }
+        ],
+        "related_pages": [
+            "/home/interventions",
+            "/home/kpi",
+            "/home/amdec"
+        ]
+    },
+    "/home/interventions": {
+        "page_name": "Interventions (Work Orders)",
+        "description": "Manage maintenance interventions and work orders",
+        "available_actions": [
+            {
+                "action": "create_intervention",
+                "ui_element": "Create Button",
+                "description": "Create a new maintenance intervention"
+            },
+            {
+                "action": "view_interventions",
+                "ui_element": "Interventions Table",
+                "description": "View all maintenance interventions"
+            },
+            {
+                "action": "filter_by_status",
+                "ui_element": "Status Filter",
+                "description": "Filter interventions by status (open, in progress, completed)"
+            },
+            {
+                "action": "view_intervention_details",
+                "ui_element": "Intervention Row",
+                "description": "Click to view detailed intervention information"
+            }
+        ],
+        "related_pages": [
+            "/home/equipment",
+            "/home/technicians",
+            "/home/spare-parts"
+        ]
+    },
+    "/home/kpi": {
+        "page_name": "KPI Dashboard",
+        "description": "View key performance indicators and maintenance metrics",
+        "available_actions": [
+            {
+                "action": "view_mtbf",
+                "ui_element": "MTBF Card",
+                "description": "View Mean Time Between Failures metric"
+            },
+            {
+                "action": "view_mttr",
+                "ui_element": "MTTR Card",
+                "description": "View Mean Time To Repair metric"
+            },
+            {
+                "action": "view_availability",
+                "ui_element": "Availability Card",
+                "description": "View equipment availability percentage"
+            },
+            {
+                "action": "filter_by_date",
+                "ui_element": "Date Filter",
+                "description": "Filter KPIs by date range"
+            },
+            {
+                "action": "download_report",
+                "ui_element": "Export Button",
+                "description": "Export KPI report in Excel or PDF format"
+            }
+        ],
+        "related_pages": [
+            "/home/equipment",
+            "/home/interventions"
+        ]
+    },
+    "/home/amdec": {
+        "page_name": "AMDEC / FMEA Analysis",
+        "description": "Failure Mode and Effects Analysis with RPN (Risk Priority Number) calculations",
+        "available_actions": [
+            {
+                "action": "view_failure_modes",
+                "ui_element": "Failure Modes Table",
+                "description": "View all failure modes for equipment"
+            },
+            {
+                "action": "create_failure_mode",
+                "ui_element": "Create Failure Mode Button",
+                "description": "Create a new failure mode analysis"
+            },
+            {
+                "action": "view_rpn_ranking",
+                "ui_element": "RPN Ranking Tab",
+                "description": "View failure modes ranked by Risk Priority Number"
+            },
+            {
+                "action": "update_rpn_analysis",
+                "ui_element": "RPN Analysis Form",
+                "description": "Update gravity, occurrence, and detection scores"
+            }
+        ],
+        "related_pages": [
+            "/home/equipment",
+            "/home/interventions"
+        ]
+    },
+    "/home/spare-parts": {
+        "page_name": "Spare Parts Inventory",
+        "description": "Manage spare parts inventory and stock levels",
+        "available_actions": [
+            {
+                "action": "view_inventory",
+                "ui_element": "Spare Parts Table",
+                "description": "View all spare parts in inventory"
+            },
+            {
+                "action": "check_low_stock",
+                "ui_element": "Low Stock Alert",
+                "description": "View parts below threshold alert level"
+            },
+            {
+                "action": "update_stock",
+                "ui_element": "Stock Update Form",
+                "description": "Update stock levels for spare parts"
+            },
+            {
+                "action": "search_parts",
+                "ui_element": "Search Bar",
+                "description": "Search for parts by designation or reference"
+            }
+        ],
+        "related_pages": [
+            "/home/interventions",
+            "/home/equipment"
+        ]
+    },
+    "/home/technicians": {
+        "page_name": "Technicians",
+        "description": "Manage technician profiles and assignments",
+        "available_actions": [
+            {
+                "action": "view_technicians",
+                "ui_element": "Technicians Table",
+                "description": "View all technicians and their details"
+            },
+            {
+                "action": "view_workload",
+                "ui_element": "Workload Tab",
+                "description": "View technician workload and assignments"
+            },
+            {
+                "action": "filter_by_specialty",
+                "ui_element": "Specialty Filter",
+                "description": "Filter technicians by specialty"
+            },
+            {
+                "action": "view_technician_stats",
+                "ui_element": "Stats View",
+                "description": "View technician statistics and performance metrics"
+            }
+        ],
+        "related_pages": [
+            "/home/interventions",
+            "/home/priority-training"
+        ]
+    },
+    "/home/assistant": {
+        "page_name": "AI Assistant",
+        "description": "Chat with AI assistant for general maintenance queries",
+        "available_actions": [
+            {
+                "action": "ask_question",
+                "ui_element": "Chat Input",
+                "description": "Ask questions about the maintenance system"
+            },
+            {
+                "action": "view_conversation",
+                "ui_element": "Chat History",
+                "description": "View previous conversation history"
+            },
+            {
+                "action": "clear_chat",
+                "ui_element": "Clear Button",
+                "description": "Clear conversation history"
+            }
+        ],
+        "related_pages": [
+            "/home/copilot",
+            "/home/knowledge-base"
+        ]
+    },
+    "/home/copilot": {
+        "page_name": "Maintenance Copilot",
+        "description": "AI-powered maintenance insights and analysis",
+        "available_actions": [
+            {
+                "action": "query_kpis",
+                "ui_element": "Query Input",
+                "description": "Ask the copilot to explain KPIs and metrics"
+            },
+            {
+                "action": "analyze_equipment_health",
+                "ui_element": "Equipment Health Query",
+                "description": "Request equipment health summary and analysis"
+            },
+            {
+                "action": "generate_intervention_report",
+                "ui_element": "Report Query",
+                "description": "Generate intervention reports with AI insights"
+            }
+        ],
+        "related_pages": [
+            "/home/kpi",
+            "/home/equipment",
+            "/home/interventions"
+        ]
+    },
+    "/home/ocr": {
+        "page_name": "OCR (Document Scanner)",
+        "description": "Extract text from images and documents using AI vision",
+        "available_actions": [
+            {
+                "action": "upload_document",
+                "ui_element": "Upload Button",
+                "description": "Upload an image or document for OCR processing"
+            },
+            {
+                "action": "view_extracted_text",
+                "ui_element": "Result Panel",
+                "description": "View extracted text from the document"
+            },
+            {
+                "action": "select_output_format",
+                "ui_element": "Format Selector",
+                "description": "Choose output format (Markdown, HTML, JSON, Text)"
+            },
+            {
+                "action": "save_extraction",
+                "ui_element": "Save Button",
+                "description": "Save extraction results for later reference"
+            }
+        ],
+        "related_pages": [
+            "/home/knowledge-base"
+        ]
+    },
+    "/home/knowledge-base": {
+        "page_name": "Knowledge Base",
+        "description": "Search and manage maintenance documentation",
+        "available_actions": [
+            {
+                "action": "search_documents",
+                "ui_element": "Search Bar",
+                "description": "Search for documents in the knowledge base"
+            },
+            {
+                "action": "upload_document",
+                "ui_element": "Upload Button",
+                "description": "Upload new documentation to the knowledge base"
+            },
+            {
+                "action": "ask_rag",
+                "ui_element": "RAG Query Input",
+                "description": "Ask questions that will be answered using RAG (Retrieval Augmented Generation)"
+            },
+            {
+                "action": "filter_by_category",
+                "ui_element": "Category Filter",
+                "description": "Filter documents by category or failure type"
+            }
+        ],
+        "related_pages": [
+            "/home/assistant",
+            "/home/ocr"
+        ]
+    },
+    "/home/priority-training": {
+        "page_name": "Training Priority Analysis",
+        "description": "Analyze training needs based on failure patterns",
+        "available_actions": [
+            {
+                "action": "view_priorities",
+                "ui_element": "Priority Table",
+                "description": "View training priorities ranked by failure type"
+            },
+            {
+                "action": "filter_by_date",
+                "ui_element": "Date Range Selector",
+                "description": "Filter analysis by date range"
+            },
+            {
+                "action": "compare_periods",
+                "ui_element": "Compare Tab",
+                "description": "Compare training needs between different periods"
+            },
+            {
+                "action": "view_normalized_data",
+                "ui_element": "Normalized View",
+                "description": "View normalized training priority scores"
+            }
+        ],
+        "related_pages": [
+            "/home/technicians",
+            "/home/interventions"
+        ]
+    },
+    "/home/import-export": {
+        "page_name": "Data Import/Export",
+        "description": "Import and export maintenance data in CSV/Excel format",
+        "available_actions": [
+            {
+                "action": "import_csv",
+                "ui_element": "Import Button",
+                "description": "Import data from CSV or Excel file"
+            },
+            {
+                "action": "export_data",
+                "ui_element": "Export Button",
+                "description": "Export current data to CSV or Excel"
+            },
+            {
+                "action": "view_import_history",
+                "ui_element": "Import Logs",
+                "description": "View history of previous imports"
+            },
+            {
+                "action": "download_template",
+                "ui_element": "Template Download",
+                "description": "Download CSV template for data import"
+            }
+        ],
+        "related_pages": [
+            "/home/equipment",
+            "/home/interventions",
+            "/home/spare-parts",
+            "/home/technicians"
+        ]
+    }
+}

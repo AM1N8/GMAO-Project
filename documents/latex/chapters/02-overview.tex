@@ -1,0 +1,175 @@
+% ============================================================
+% Chapitre 2 : Vue d'Ensemble du Système
+% ============================================================
+
+\chapter{Vue d'Ensemble du Système}
+\label{chap:overview}
+
+\section{Architecture Globale}
+
+Le système ProAct adopte une architecture \textbf{découplée} (decoupled) avec une séparation nette entre le frontend et le backend, communiquant via une API RESTful sécurisée.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=1.2cm and 1.5cm,
+    every node/.style={font=\small}
+]
+    % Frontend Layer
+    \node[component, minimum width=7cm, fill=primary!15] (frontend) {Frontend Next.js 14};
+    \node[below=0.2cm of frontend, font=\footnotesize\color{gray}] {App Router + React 18 + TypeScript};
+    
+    % API Gateway
+    \node[component, below=1.2cm of frontend, minimum width=3.5cm, fill=secondary!15] (api) {API RESTful};
+    \node[below=0.2cm of api, font=\footnotesize\color{gray}] {JWT Auth};
+    
+    % Backend Layer
+    \node[component, below=1.2cm of api, minimum width=7cm, fill=accent!15] (backend) {Backend FastAPI};
+    \node[below=0.2cm of backend, font=\footnotesize\color{gray}] {Python 3.11 + SQLAlchemy};
+    
+    % Services
+    \node[service, below left=1cm and -1cm of backend] (kpi) {KPI};
+    \node[service, right=0.2cm of kpi] (rag) {RAG};
+    \node[service, right=0.2cm of rag] (copilot) {Copilot};
+    \node[service, right=0.2cm of copilot] (predict) {Predict};
+    
+    % Databases
+    \node[database, below=2cm of backend, xshift=-2cm] (postgres) {PostgreSQL};
+    \node[database, right=1cm of postgres] (faiss) {FAISS};
+    \node[database, right=1cm of faiss] (redis) {Redis};
+    
+    % External
+    \node[component, right=2.5cm of backend, minimum width=1.8cm, fill=warning!15, font=\footnotesize] (supabase) {Supabase};
+    \node[component, below=1.6cm of supabase, minimum width=1.8cm, fill=warning!15, font=\footnotesize] (ollama) {Ollama};
+    
+    % Arrows
+    \draw[arrow] (frontend) -- (api);
+    \draw[arrow] (api) -- (backend);
+    \draw[arrow] (backend) -- (kpi);
+    \draw[arrow] (backend) -- (rag);
+    \draw[arrow] (backend) -- (copilot);
+    \draw[arrow] (backend) -- (predict);
+    \draw[arrow] (kpi) -- (postgres);
+    \draw[arrow] (rag) -- (faiss);
+    \draw[arrow] (rag) -- (redis);
+    \draw[arrow, dashed] (frontend.east) -- ++(0.8,0) |- (supabase.west);
+    \draw[arrow] (copilot.south) |- (ollama.west);
+    
+\end{tikzpicture}
+\caption{Architecture globale du système ProAct}
+\label{fig:architecture-globale}
+\end{figure}
+
+\section{Flux de Données Principal}
+
+Le système gère plusieurs flux de données interconnectés :
+
+\begin{enumerate}
+    \item \textbf{Flux d'authentification} : L'utilisateur s'authentifie via Supabase Auth, qui émet un token JWT contenant les claims de rôle.
+    
+    \item \textbf{Flux CRUD} : Les opérations sur les entités (équipements, interventions, etc.) transitent par l'API REST protégée.
+    
+    \item \textbf{Flux analytique} : Les calculs de KPIs sont effectués côté backend et retournés au frontend pour visualisation.
+    
+    \item \textbf{Flux IA} : Les requêtes RAG et Copilot sont traitées par les services spécialisés utilisant Ollama.
+\end{enumerate}
+
+\section{Composants Principaux}
+
+\subsection{Frontend (Next.js)}
+
+Le frontend est construit sur le boilerplate \textbf{Makerkit SaaS Lite} qui fournit :
+
+\begin{itemize}
+    \item Authentification intégrée avec Supabase
+    \item Structure de navigation multi-tenant
+    \item Composants UI modernes (shadcn/ui)
+    \item Gestion des thèmes (clair/sombre)
+    \item Internationalisation (i18n)
+\end{itemize}
+
+\begin{infobox}[Structure des Pages Dashboard]
+Les pages du dashboard sont organisées dans \file{apps/web/app/home/} avec des sous-dossiers dédiés : equipment, interventions, spare-parts, technicians, kpi, amdec, assistant, copilot, ocr, ai-forecast.
+\end{infobox}
+
+\subsection{Backend (FastAPI)}
+
+Le backend expose une API RESTful complète :
+
+\begin{table}[H]
+\centering
+\caption{Endpoints API par module}
+\label{tab:endpoints}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Préfixe} & \textbf{Tag} & \textbf{Description} \\
+\midrule
+/api/equipment & Equipment & CRUD équipements, stats \\
+/api/interventions & Interventions & Ordres de travail \\
+/api/spare-parts & Spare Parts & Inventaire pièces \\
+/api/technicians & Technicians & Profils, compétences \\
+/api/kpi & KPIs & MTBF, MTTR, Disponibilité \\
+/api/amdec & AMDEC & Modes de défaillance \\
+/api/rag & RAG System & Upload docs, requêtes \\
+/api/copilot & Copilot & Assistant conversationnel \\
+/api/ocr & OCR Vision & Extraction texte images \\
+/api/predict & AI Forecast & Prédiction RUL, MTBF \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Base de Données}
+
+Le modèle de données relationnelles comprend les entités principales suivantes :
+
+\begin{itemize}
+    \item \textbf{Equipment} : Équipements/machines avec métadonnées
+    \item \textbf{Intervention} : Ordres de travail avec coûts et durées
+    \item \textbf{SparePart} : Pièces de rechange avec niveaux de stock
+    \item \textbf{Technician} : Personnel de maintenance avec compétences
+    \item \textbf{FailureMode} : Modes de défaillance pour analyse AMDEC
+    \item \textbf{RPNAnalysis} : Évaluations RPN (Gravité × Occurrence × Détection)
+\end{itemize}
+
+\section{Rôles Utilisateurs}
+
+Le système implémente un modèle RBAC avec quatre niveaux :
+
+\begin{table}[H]
+\centering
+\caption{Matrice des rôles et permissions}
+\label{tab:roles}
+\small
+\begin{tabularx}{\textwidth}{@{}X c c c c@{}}
+\toprule
+\textbf{Fonctionnalité} & \textbf{Adm} & \textbf{Sup} & \textbf{Tech} & \textbf{View} \\
+\midrule
+Créer équipements & \checkmark & \checkmark & -- & -- \\
+Modifier interventions & \checkmark & \checkmark & \checkmark & -- \\
+Consulter KPIs & \checkmark & \checkmark & \checkmark & \checkmark \\
+Gérer techniciens & \checkmark & -- & -- & -- \\
+Import/Export données & \checkmark & \checkmark & -- & -- \\
+Utiliser Copilot/RAG & \checkmark & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Points d'Intégration}
+
+\subsection{Supabase}
+
+L'intégration Supabase fournit :
+\begin{itemize}
+    \item Authentification (email/mot de passe, OAuth)
+    \item Stockage des rôles dans \tech{app\_metadata}
+    \item Base de données PostgreSQL managée
+\end{itemize}
+
+\subsection{Ollama}
+
+Le serveur Ollama local héberge les modèles LLM pour la génération de réponses RAG, le traitement des requêtes Copilot, et l'extraction OCR avec modèles vision.
+
+\begin{warningbox}[Configuration Requise]
+Le serveur Ollama doit être accessible à l'URL configurée dans \file{OLLAMA\_BASE\_URL} (par défaut \tech{http://ollama:11434} en Docker).
+\end{warningbox}

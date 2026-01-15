@@ -1,0 +1,87 @@
+% ============================================================
+% Chapitre 16 : Limites et Contraintes
+% ============================================================
+
+\chapter{Limites et Contraintes}
+\label{chap:limitations}
+
+\section{Limites Techniques}
+
+\subsection{Dépendance à Ollama}
+
+\begin{itemize}
+    \item \textbf{GPU} : Performances dégradées sans GPU
+    \item \textbf{Démarrage} : 30-60 secondes pour charger modèles
+    \item \textbf{VRAM} : 4-8 GB minimum pour VLM
+    \item \textbf{Latence} : 2-5 secondes par requête IA
+\end{itemize}
+
+\begin{warningbox}[Impact]
+Sans GPU, temps de réponse 10-30 secondes ou timeout sur requêtes complexes.
+\end{warningbox}
+
+\subsection{Scalabilité RAG}
+
+\begin{table}[H]
+\centering
+\caption{Limites du système RAG}
+\label{tab:rag-limits}
+\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Contrainte} & \textbf{Limite Pratique} \\
+\midrule
+Documents indexés & $\sim$1000 documents \\
+Taille par document & $\sim$50 pages / 100 KB \\
+Chunks par document & $\sim$200 chunks \\
+Requêtes concurrentes & $\sim$10/seconde \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Limites Fonctionnelles}
+
+\begin{itemize}
+    \item Modèle RBAC simple avec 4 rôles fixes
+    \item Pas de permissions granulaires par ressource
+    \item Pas de multi-tenancy natif
+    \item Workflow intervention linéaire (pas de branches)
+    \item Pas de notifications push temps réel
+    \item Pas de générateur de rapports personnalisés
+\end{itemize}
+
+\section{Limites IA}
+
+\begin{itemize}
+    \item \textbf{Données requises} : Min. 20-30 interventions par équipement
+    \item \textbf{Précision RUL} : MAE typique 15-30 jours
+    \item \textbf{Hallucinations} : Réponses parfois incorrectes
+    \item \textbf{Contexte} : $\sim$4-8K tokens max
+\end{itemize}
+
+\section{Contraintes Intégration}
+
+Pas d'intégration ERP native, pas de connecteurs IoT/SCADA, API REST uniquement, authentification Supabase uniquement.
+
+\section{Contraintes Opérationnelles}
+
+\begin{table}[H]
+\centering
+\caption{Contraintes opérationnelles}
+\label{tab:operational-constraints}
+\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Aspect} & \textbf{Contrainte} \\
+\midrule
+Utilisateurs concurrents & $\sim$50-100 selon infrastructure \\
+Volume de données & $\sim$1M interventions max recommandé \\
+Taille uploads & 10 MB par fichier \\
+Backup & Non automatisé \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{infobox}[Évolutions Prévues]
+Ces limitations sont priorisées pour les versions futures. Voir chapitre \ref{chap:future}.
+\end{infobox}

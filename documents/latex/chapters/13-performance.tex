@@ -1,0 +1,91 @@
+% ============================================================
+% Chapitre 13 : Performances et Scalabilité
+% ============================================================
+
+\chapter{Performances et Scalabilité}
+\label{chap:performance}
+
+\section{Objectifs de Performance}
+
+\begin{table}[H]
+\centering
+\caption{SLOs (Service Level Objectives)}
+\label{tab:slos}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Métrique} & \textbf{Objectif} & \textbf{Critique} \\
+\midrule
+Latence API (P95) & < 200ms & < 500ms \\
+Latence RAG Query & < 3s & < 5s \\
+Time to First Byte & < 100ms & < 300ms \\
+Disponibilité & > 99.5\% & > 99\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Optimisations Backend}
+
+\subsection{Indexation Base de Données}
+
+Index SQL sur colonnes fréquemment filtrées : intervention\_date\_type, intervention\_equipment\_date, intervention\_status, equipment\_serial.
+
+\subsection{Pagination}
+
+Paramètres \tech{skip} et \tech{limit} (max 500), comptage total optimisé, indicateur \tech{has\_more}.
+
+\subsection{Caching Redis}
+
+Cache RAG : clé = hash MD5 requête, TTL = 1 heure, invalidation automatique.
+
+\subsection{Async I/O}
+
+FastAPI utilise le modèle asynchrone pour les opérations I/O non-bloquantes.
+
+\section{Optimisations Frontend}
+
+\begin{itemize}
+    \item \textbf{Server Components} : Réduction bundle JS
+    \item \textbf{React Query} : staleTime 5min, cacheTime 30min
+    \item \textbf{Code Splitting} : Chargement dynamique composants lourds
+\end{itemize}
+
+\section{Scalabilité Horizontale}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=1.2cm and 1.5cm]
+    \node[component, minimum width=2.5cm, fill=warning!20] (lb) {Load Balancer};
+    
+    \node[service, below left=1.2cm and 0.5cm of lb] (api1) {API 1};
+    \node[service, below=1.2cm of lb] (api2) {API 2};
+    \node[service, below right=1.2cm and 0.5cm of lb] (api3) {API N};
+    
+    \node[database, below=2.5cm of lb, xshift=-1.5cm, minimum width=1.5cm] (db) {PostgreSQL};
+    \node[database, below=2.5cm of lb, xshift=1.5cm, minimum width=1.5cm] (redis) {Redis};
+    
+    \draw[arrow] (lb) -- (api1);
+    \draw[arrow] (lb) -- (api2);
+    \draw[arrow] (lb) -- (api3);
+    \draw[arrow] (api1) -- (db);
+    \draw[arrow] (api2) -- (db);
+    \draw[arrow] (api3) -- (db);
+    \draw[arrow] (api1) -- (redis);
+    \draw[arrow] (api2) -- (redis);
+    \draw[arrow] (api3) -- (redis);
+\end{tikzpicture}
+\caption{Architecture horizontale}
+\label{fig:horizontal-scaling}
+\end{figure}
+
+Architecture stateless : pas d'état en mémoire, sessions par Supabase, cache partagé Redis.
+
+\section{Monitoring}
+
+Health checks vérifient : PostgreSQL, Redis, Ollama, FAISS.
+
+Métriques recommandées : Request Rate, Error Rate, Latency (P50/P95/P99), DB connections, Cache hit ratio.
+
+\begin{infobox}[Outils Recommandés]
+Prometheus, Grafana, Sentry, Vercel Analytics.
+\end{infobox}

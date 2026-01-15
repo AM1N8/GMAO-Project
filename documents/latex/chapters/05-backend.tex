@@ -1,0 +1,120 @@
+% ============================================================
+% Chapitre 5 : Architecture Backend
+% ============================================================
+
+\chapter{Architecture Backend}
+\label{chap:backend}
+
+\section{Vue d'Ensemble}
+
+Le backend ProAct est développé avec \textbf{FastAPI}, un framework Python moderne offrant des performances élevées et une documentation automatique. L'architecture suit les principes de \textbf{Clean Architecture}.
+
+\begin{techbox}[Stack Backend]
+\begin{itemize}
+    \item \textbf{Framework} : FastAPI 0.100+
+    \item \textbf{ORM} : SQLAlchemy 2.0
+    \item \textbf{Validation} : Pydantic v2
+    \item \textbf{Auth} : python-jose (JWT)
+    \item \textbf{ML} : Scikit-learn, XGBoost, Prophet
+    \item \textbf{LLM} : Ollama
+    \item \textbf{Vector Store} : FAISS
+\end{itemize}
+\end{techbox}
+
+\section{Structure du Projet}
+
+Le backend suit une organisation modulaire :
+
+\begin{itemize}
+    \item \file{app/main.py} : Point d'entrée FastAPI, configuration CORS
+    \item \file{app/database.py} : Configuration SQLAlchemy
+    \item \file{app/models.py} : Modèles ORM
+    \item \file{app/schemas.py} : Schémas Pydantic
+    \item \file{app/security.py} : Auth JWT et guards RBAC
+    \item \file{app/routers/} : 15 routers par domaine
+    \item \file{app/services/} : Logique métier
+\end{itemize}
+
+\section{Couche Routers}
+
+Les routers définissent les endpoints REST :
+
+\begin{table}[H]
+\centering
+\caption{Routers principaux}
+\label{tab:routers}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Router} & \textbf{Préfixe} & \textbf{Fonctionnalités} \\
+\midrule
+equipment & /api/equipment & CRUD équipements, stats \\
+interventions & /api/interventions & Ordres de travail \\
+spare\_parts & /api/spare-parts & Inventaire, alertes \\
+technicians & /api/technicians & Profils, compétences \\
+kpi & /api/kpi & MTBF, MTTR, Dashboard \\
+amdec & /api/amdec & Modes défaillance, RPN \\
+rag & /api/rag & Upload docs, requêtes \\
+copilot & /api/copilot & Assistant IA \\
+ocr & /api/ocr & Extraction texte \\
+prediction & /api/predict & Prévision pannes \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Couche Services}
+
+Les services encapsulent la logique métier :
+
+\begin{itemize}
+    \item \textbf{KPIService} : Calculs MTBF, MTTR, Disponibilité
+    \item \textbf{CopilotService} : Orchestration des requêtes IA
+    \item \textbf{PredictionService} : Modèles ML pour RUL
+    \item \textbf{OCRService} : Extraction via modèles VLM
+    \item \textbf{RAGService} : Pipeline de recherche documentaire
+\end{itemize}
+
+\section{Gestion des Erreurs}
+
+\begin{table}[H]
+\centering
+\caption{Codes d'erreur HTTP}
+\label{tab:http-errors}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Code} & \textbf{Signification} & \textbf{Exemple} \\
+\midrule
+400 & Bad Request & Validation Pydantic échouée \\
+401 & Unauthorized & JWT expiré ou invalide \\
+403 & Forbidden & Rôle non autorisé \\
+404 & Not Found & Équipement ID inconnu \\
+422 & Unprocessable & Champ requis manquant \\
+500 & Server Error & Exception non gérée \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Endpoints de Santé}
+
+Le backend expose des endpoints de monitoring :
+
+\begin{itemize}
+    \item \api{GET /health} : Vérification DB et RAG
+    \item \api{GET /api/stats} : Compteurs des entités
+    \item \api{GET /} : Informations version
+\end{itemize}
+
+\section{Documentation API}
+
+FastAPI génère automatiquement la documentation :
+
+\begin{itemize}
+    \item \textbf{Swagger UI} : \api{/docs}
+    \item \textbf{ReDoc} : \api{/redoc}
+    \item \textbf{OpenAPI} : \api{/openapi.json}
+\end{itemize}
+
+\begin{infobox}[Tags API]
+Les endpoints sont organisés par tags : Equipment, Interventions, Spare Parts, Technicians, KPIs, AMDEC, RAG, Copilot, OCR, Forecast.
+\end{infobox}

@@ -1,0 +1,105 @@
+% ============================================================
+% Chapitre 11 : Sécurité
+% ============================================================
+
+\chapter{Sécurité}
+\label{chap:security}
+
+\section{Vue d'Ensemble}
+
+La sécurité de ProAct est conçue selon le principe de \textbf{défense en profondeur}.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=0.5cm]
+    \node[rectangle, draw=primary, fill=primary!10, minimum width=8cm, minimum height=0.7cm, font=\small] (l1) {\textbf{Authentification} -- JWT Supabase};
+    \node[rectangle, draw=secondary, fill=secondary!10, minimum width=7cm, minimum height=0.7cm, below=of l1, font=\small] (l2) {\textbf{Autorisation} -- RBAC 4 niveaux};
+    \node[rectangle, draw=accent, fill=accent!10, minimum width=6cm, minimum height=0.7cm, below=of l2, font=\small] (l3) {\textbf{Validation} -- Pydantic};
+    \node[rectangle, draw=warning, fill=warning!10, minimum width=5cm, minimum height=0.7cm, below=of l3, font=\small] (l4) {\textbf{Transport} -- HTTPS/TLS};
+    \node[rectangle, draw=danger, fill=danger!10, minimum width=4cm, minimum height=0.7cm, below=of l4, font=\small] (l5) {\textbf{Données} -- Chiffrement};
+\end{tikzpicture}
+\caption{Couches de sécurité}
+\label{fig:security-layers}
+\end{figure}
+
+\section{Authentification JWT}
+
+\begin{itemize}
+    \item \textbf{Algorithme} : HS256
+    \item \textbf{Secret} : \tech{SUPABASE\_JWT\_SECRET} (256 bits min)
+    \item \textbf{Expiration} : 1 heure par défaut
+    \item \textbf{Refresh} : Automatique par Supabase
+\end{itemize}
+
+\section{Autorisation RBAC}
+
+\begin{table}[H]
+\centering
+\caption{Hiérarchie des rôles}
+\label{tab:role-hierarchy}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Rôle} & \textbf{Niveau} & \textbf{Privilèges} \\
+\midrule
+\role{Admin} & 4 & Accès total, gestion utilisateurs \\
+\role{Supervisor} & 3 & Gestion opérationnelle \\
+\role{Technician} & 2 & Interventions, soumissions \\
+\role{Viewer} & 1 & Consultation seule \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Validation des Entrées}
+
+Pydantic valide types et contraintes. SQLAlchemy ORM génère des requêtes paramétrées pour prévenir les injections SQL.
+
+\section{Sécurité des Communications}
+
+Configuration CORS : origines autorisées, méthodes (GET, POST, PUT, DELETE), headers (Authorization, Content-Type).
+
+\begin{warningbox}[Configuration Production]
+Remplacer \tech{allow\_origins=["*"]} par la liste explicite des domaines autorisés.
+\end{warningbox}
+
+\section{Protection des Données}
+
+\begin{table}[H]
+\centering
+\caption{Classification des données}
+\label{tab:sensitive-data}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Donnée} & \textbf{Sensibilité} & \textbf{Protection} \\
+\midrule
+Mots de passe & Critique & Hash bcrypt (Supabase) \\
+Tokens JWT & Haute & HttpOnly cookies \\
+Emails & Moyenne & Accès restreint \\
+Coûts & Moyenne & Visible selon rôle \\
+Données tech. & Basse & Accès authentifié \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Checklist Sécurité}
+
+\begin{table}[H]
+\centering
+\caption{Checklist de sécurité}
+\label{tab:security-checklist}
+\small
+\begin{tabularx}{\textwidth}{@{}X c c@{}}
+\toprule
+\textbf{Mesure} & \textbf{Impl.} & \textbf{Prod} \\
+\midrule
+Authentification JWT & \checkmark & \checkmark \\
+RBAC 4 niveaux & \checkmark & \checkmark \\
+Validation Pydantic & \checkmark & \checkmark \\
+Protection SQL Injection & \checkmark & \checkmark \\
+Configuration CORS & \checkmark & Configurer \\
+HTTPS/TLS & -- & Requis \\
+Rate Limiting & -- & Recommandé \\
+\bottomrule
+\end{tabularx}
+\end{table}

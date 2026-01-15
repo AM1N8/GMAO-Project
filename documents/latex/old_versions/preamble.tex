@@ -1,0 +1,306 @@
+% ============================================================
+% ProAct GMAO - Documentation Technique
+% Préambule LaTeX - Configuration du document 
+% ============================================================
+
+% ============== CONFIGURATION DE BASE ==============
+\documentclass[12pt, a4paper, openany]{report}
+
+% Encodage et langue
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amssymb}
+
+% ============== POLICES ET TYPOGRAPHIE ==============
+% Utilisation de Palatino (mathpazo) pour le corps et Helvetica pour les titres
+\usepackage{mathpazo} 
+\usepackage[scaled=0.95]{helvet}
+\usepackage{courier} % Pour le code
+\usepackage{microtype} % Amélioration micro-typographique
+
+% ============== MISE EN PAGE ==============
+\usepackage[
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    headheight=26pt,
+    footskip=1cm
+]{geometry}
+
+% Interligne optimisé (compact)
+\usepackage{setspace}
+\setstretch{1.1}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+
+% Optimisation des placements de figures pour éviter les vides
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.75}
+
+% ============== COULEURS PROFESSIONNELLES ==============
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+
+% Palette "ProAct" Modernisée
+\definecolor{primary}{HTML}{0052CC}      % Royal Blue - Professionnel et Tech
+\definecolor{secondary}{HTML}{008DA6}    % Teal - Frais et moderne
+\definecolor{accent}{HTML}{6554C0}       % Deep Purple - Distinctif
+\definecolor{darkgray}{HTML}{2D3748}     % Slate Gray - Texte principal doux
+\definecolor{mediumgray}{HTML}{4A5568}   % Texte secondaire
+\definecolor{lightgray}{HTML}{EDF2F7}    % Fonds très clairs
+\definecolor{codebg}{HTML}{F7FAFC}       % Fond blocs de code
+\definecolor{bordergray}{HTML}{CBD5E0}   % Bordures subtiles
+% Couleurs sémantiques
+\definecolor{warning}{HTML}{DD6B20}      % Orange brûlé (moins agressif)
+\definecolor{danger}{HTML}{E53E3E}       % Rouge élégant
+\definecolor{success}{HTML}{38A169}      % Vert naturel
+
+% ============== GRAPHIQUES ==============
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    shapes.arrows,
+    arrows.meta,
+    positioning,
+    shadows,
+    backgrounds,
+    calc,
+    fit
+}
+\graphicspath{{figures/}}
+
+% Styles TikZ personnalisés
+\tikzset{
+    component/.style={
+        rectangle,
+        rounded corners=5pt,
+        draw=primary,
+        fill=primary!10,
+        minimum width=3cm,
+        minimum height=1cm,
+        text centered,
+        font=\small\bfseries,
+        drop shadow
+    },
+    database/.style={
+        cylinder,
+        cylinder uses custom fill,
+        cylinder body fill=secondary!20,
+        cylinder end fill=secondary!40,
+        draw=secondary,
+        shape border rotate=90,
+        minimum width=2cm,
+        minimum height=1.5cm,
+        text centered,
+        font=\small\bfseries,
+        drop shadow
+    },
+    service/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=accent,
+        fill=accent!10,
+        minimum width=2.5cm,
+        minimum height=0.8cm,
+        text centered,
+        font=\footnotesize
+    },
+    arrow/.style={
+        ->,
+        >=Stealth,
+        thick,
+        color=darkgray
+    }
+}
+
+% ============== TABLEAUX ==============
+\usepackage{booktabs}   % Lignes de tableau professionnelles (toprule, midrule, bottomrule)
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+
+% Types de colonnes personnalisés
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\renewcommand{\arraystretch}{1.4} % Tableaux plus aérés
+
+% ============== ENCADRÉS (TCOLORBOX) ==============
+\usepackage[most]{tcolorbox}
+
+% Style global pour les boîtes
+\tcbset{
+    enhanced,
+    sharp corners=flt, % Coins légèrement arrondis
+    colback=white,
+    boxrule=0.5pt,
+    drop shadow={opacity=0.1, shadow xshift=2pt, shadow yshift=-2pt},
+    left=10pt, right=10pt, top=8pt, bottom=8pt,
+    fonttitle=\bfseries\sffamily
+}
+
+% Boîte d'information (Bleu)
+\newtcolorbox{infobox}[1][Info]{
+    colframe=primary,
+    colbacktitle=primary,
+    title={#1},
+    colback=primary!5!white
+}
+
+% Boîte d'avertissement (Orange)
+\newtcolorbox{warningbox}[1][Attention]{
+    colframe=warning,
+    colbacktitle=warning,
+    title={#1},
+    colback=warning!5!white
+}
+
+% Boîte technique (Gris)
+\newtcolorbox{techbox}[1][Détails Techniques]{
+    colframe=darkgray,
+    colbacktitle=darkgray,
+    title={#1},
+    colback=darkgray!5!white
+}
+
+% Boîte concept clé (Violet)
+\newtcolorbox{conceptbox}[1][Concept Clé]{
+    colframe=accent,
+    colbacktitle=accent,
+    title={#1},
+    colback=accent!5!white
+}
+
+% ============== CODE SOURCE ==============
+\usepackage{listings}
+
+% Style général du code
+\lstdefinestyle{codestyle}{
+    basicstyle=\ttfamily\small\color{darkgray},
+    commentstyle=\itshape\color{mediumgray},
+    keywordstyle=\bfseries\color{primary},
+    stringstyle=\color{success},
+    numberstyle=\tiny\color{bordergray},
+    numbers=left,
+    numbersep=10pt,
+    backgroundcolor=\color{codebg},
+    frame=ltrb,
+    framerule=0pt, % Géré par tcolorbox si besoin, ou simple ici
+    framesep=5pt,
+    rulecolor=\color{lightgray},
+    breaklines=true,
+    breakatwhitespace=false,
+    showspaces=false,
+    captionpos=b,
+    keepspaces=true,
+    tabsize=2,
+    xleftmargin=15pt,
+    framexleftmargin=10pt,
+    aboveskip=1em,
+    belowskip=1em
+}
+
+\lstset{style=codestyle}
+
+% Langages spécifiques
+\lstdefinelanguage{TypeScript}{
+    keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, const, let, interface, type, extends, implements, import, export, from, async, await},
+    sensitive=true,
+    comment=[l]{//},
+    morecomment=[s]{/*}{*/},
+    morestring=[b]',
+    morestring=[b]"
+}
+
+% ============== EN-TÊTES ET PIEDS DE PAGE ==============
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% En-tête : Chapitre à gauche, Numéro page à droite
+\fancyhead[L]{\sffamily\color{mediumgray}\nouppercase{\leftmark}}
+\fancyhead[R]{\sffamily\bfseries\color{primary}\thepage}
+
+% Pied de page : Titre doc et auteur
+\fancyfoot[C]{\sffamily\footnotesize\color{mediumgray}ProAct GMAO -- Documentation Technique v2.0}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+
+% Style Plain (pour début chapitre)
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\sffamily\color{darkgray}\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% ============== TITRES DES CHAPITRES ==============
+\usepackage{titlesec}
+
+% Format Chapitre : Numéro géant gris + Titre bleu + Ligne
+\titleformat{\chapter}[display]
+    {\sffamily\bfseries\color{primary}} % Format label
+    {\filleft\fontsize{60}{60}\selectfont\color{lightgray}\thechapter} % Label (Numéro)
+    {-15pt} % Sep
+    {\titlerule[1pt]\vspace{1ex}\filright\Huge} % Before title
+
+% Format Section : Souligné
+\titleformat{\section}
+    {\sffamily\Large\bfseries\color{darkgray}}
+    {\thesection}
+    {1em}
+    {}
+
+% Format Subsection : Simple
+\titleformat{\subsection}
+    {\sffamily\large\bfseries\color{secondary}}
+    {\thesubsection}
+    {1em}
+    {}
+
+% Espacement compact
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
+
+% ============== TABLE DES MATIÈRES ==============
+\usepackage{tocloft}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\color{primary}}
+\renewcommand{\cftsecfont}{\sffamily\color{darkgray}}
+\renewcommand{\cftchappagefont}{\bfseries\color{darkgray}}
+
+% ============== HYPERLIENS ==============
+\usepackage[
+    hidelinks, % Pas de boîtes rouges moches
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=secondary,
+    citecolor=accent,
+    pdfauthor={Mohamed Amine Darraj},
+    pdftitle={ProAct GMAO - Documentation Technique},
+    breaklinks=true
+]{hyperref}
+
+% ============== COMMANDES PERSONNALISÉES ==============
+% Style pour les items de liste
+\usepackage{enumitem}
+\setlist{nosep}
+\setlist[itemize]{label=\color{primary}$\bullet$, leftmargin=*}
+\setlist[enumerate]{font=\bfseries\color{secondary}, leftmargin=*}
+
+% Macros sémantiques
+\newcommand{\tech}[1]{\texttt{\color{primary}\textbf{#1}}}
+\newcommand{\file}[1]{\texttt{\color{mediumgray}#1}}
+\newcommand{\api}[1]{\texttt{\color{accent}#1}}
+\newcommand{\kpi}[1]{\textbf{\color{success}#1}}
+\newcommand{\role}[1]{\textit{\color{secondary}#1}}

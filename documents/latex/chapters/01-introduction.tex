@@ -1,0 +1,115 @@
+% ============================================================
+% Chapitre 1 : Introduction Générale
+% ============================================================
+
+\chapter{Introduction Générale}
+\label{chap:introduction}
+
+\section{Contexte et Enjeux}
+
+La maintenance industrielle constitue un pilier fondamental de la performance opérationnelle des entreprises manufacturières. Dans un contexte de compétitivité accrue et de digitalisation croissante, les systèmes de \textbf{Gestion de Maintenance Assistée par Ordinateur} (GMAO) deviennent des outils stratégiques incontournables.
+
+\begin{conceptbox}[Définition GMAO]
+Un système GMAO (ou CMMS -- \textit{Computerized Maintenance Management System}) est une solution logicielle permettant de centraliser, planifier, suivre et optimiser l'ensemble des opérations de maintenance d'une organisation.
+\end{conceptbox}
+
+Le projet \textbf{ProAct} s'inscrit dans cette dynamique en proposant une plateforme GMAO moderne, enrichie de capacités d'\textbf{Intelligence Artificielle} pour accompagner les équipes de maintenance dans leurs prises de décision.
+
+\section{Objectifs du Projet}
+
+Le système ProAct a été conçu pour répondre aux objectifs suivants :
+
+\begin{enumerate}
+    \item \textbf{Centralisation des données} : Regrouper l'ensemble des informations relatives aux équipements, interventions, pièces de rechange et techniciens dans une base de données unifiée.
+    
+    \item \textbf{Suivi des interventions} : Permettre la création, l'assignation et le suivi complet des ordres de travail avec traçabilité des coûts et temps d'arrêt.
+    
+    \item \textbf{Analyse des performances} : Calculer et visualiser les KPIs clés de maintenance (MTBF, MTTR, Disponibilité, OEE).
+    
+    \item \textbf{Aide à la décision par IA} : Intégrer des modules d'intelligence artificielle pour :
+    \begin{itemize}
+        \item La prédiction des pannes (maintenance prédictive)
+        \item L'analyse documentaire via RAG (Retrieval-Augmented Generation)
+        \item L'assistance conversationnelle (Copilot)
+        \item L'extraction automatique de données (OCR)
+    \end{itemize}
+    
+    \item \textbf{Gestion des compétences} : Suivre les compétences des techniciens et identifier les besoins de formation.
+    
+    \item \textbf{Analyse AMDEC/RPN} : Évaluer la criticité des modes de défaillance via l'analyse RPN (Risk Priority Number).
+\end{enumerate}
+
+\section{Périmètre Fonctionnel}
+
+Le tableau \ref{tab:perimetre} synthétise les principaux modules fonctionnels du système ProAct.
+
+\begin{table}[H]
+\centering
+\caption{Modules fonctionnels du système ProAct}
+\label{tab:perimetre}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Module} & \textbf{Fonctionnalités} & \textbf{Utilisateurs} \\
+\midrule
+Équipements & CRUD, historique, statistiques & Admin, Supervisor \\
+Interventions & Gestion ordres de travail & Tous \\
+Pièces de rechange & Stock, alertes seuil & Admin, Supervisor \\
+Techniciens & Profils, compétences, assignations & Admin \\
+KPI Dashboard & MTBF, MTTR, Disponibilité & Tous \\
+AMDEC/RPN & Modes de défaillance, criticité & Supervisor, Admin \\
+RAG Assistant & Requêtes documentaires IA & Tous \\
+Copilot & Assistant conversationnel & Tous \\
+OCR & Extraction données images & Admin, Supervisor \\
+AI Forecast & Prédiction pannes & Admin, Supervisor \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Structure de ce Document}
+
+Ce document technique est organisé en plusieurs chapitres couvrant l'ensemble des aspects du système :
+
+\begin{itemize}
+    \item \textbf{Chapitres 2-3} : Vue d'ensemble et architecture frontend
+    \item \textbf{Chapitre 4} : Système d'authentification et autorisation
+    \item \textbf{Chapitres 5-6} : Architecture backend et modèle de données
+    \item \textbf{Chapitres 7-8} : Gestion des interventions et soumissions
+    \item \textbf{Chapitre 9} : KPIs et tableaux de bord analytiques
+    \item \textbf{Chapitre 10} : Modules d'Intelligence Artificielle
+    \item \textbf{Chapitres 11-12} : Sécurité et expérience utilisateur
+    \item \textbf{Chapitres 13-14} : Performances et tests
+    \item \textbf{Chapitres 15-17} : Déploiement, limites et perspectives
+\end{itemize}
+
+\section{Technologies Utilisées}
+
+\begin{techbox}[Stack Technologique]
+\textbf{Frontend :}
+\begin{itemize}
+    \item Next.js 14 avec App Router
+    \item React 18 + TypeScript
+    \item Makerkit SaaS Boilerplate
+    \item Tailwind CSS + shadcn/ui
+\end{itemize}
+
+\textbf{Backend :}
+\begin{itemize}
+    \item FastAPI (Python 3.11+)
+    \item SQLAlchemy ORM
+    \item Pydantic pour la validation
+\end{itemize}
+
+\textbf{Base de données :}
+\begin{itemize}
+    \item PostgreSQL (Supabase)
+    \item SQLite (développement local)
+\end{itemize}
+
+\textbf{Intelligence Artificielle :}
+\begin{itemize}
+    \item Ollama (LLM local)
+    \item FAISS (recherche vectorielle)
+    \item Prophet (séries temporelles)
+    \item Scikit-learn, XGBoost
+\end{itemize}
+\end{techbox}

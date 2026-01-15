@@ -1,0 +1,94 @@
+% ============================================================
+% Chapitre 8 : Système de Soumission Technicien
+% ============================================================
+
+\chapter{Système de Soumission Technicien}
+\label{chap:technician-submissions}
+
+\section{Vue d'Ensemble}
+
+Le module de soumission permet aux techniciens de reporter leurs activités et soumettre leurs heures de travail.
+
+\section{Profil Technicien}
+
+\begin{table}[H]
+\centering
+\caption{Attributs du profil technicien}
+\label{tab:technician-profile}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Attribut} & \textbf{Type} & \textbf{Description} \\
+\midrule
+Nom / Prénom & String & Identité \\
+Email & String (unique) & Contact et auth \\
+Téléphone & String & Contact mobile \\
+Spécialité & String & Domaine d'expertise \\
+Taux horaire & Float & Coût horaire \\
+Statut & Enum & Active, Inactive, On Leave \\
+Date embauche & Date & Ancienneté \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Les compétences sont associées avec niveau de maîtrise (1-5) et statut de certification.
+
+\section{Workflow}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=1cm and 1.2cm]
+    \node[component, minimum width=2cm] (tech) {Technicien};
+    \node[component, minimum width=2cm, right=3cm of tech] (super) {Superviseur};
+    
+    \node[service, below=0.6cm of tech] (s1) {1. Assignations};
+    \node[service, below=0.5cm of s1] (s2) {2. Intervention};
+    \node[service, below=0.5cm of s2] (s3) {3. Rapport};
+    \node[service, below=1.6cm of super] (s4) {4. Validation};
+    \node[service, below=0.5cm of s4] (s5) {5. Clôture};
+    
+    \draw[arrow] (tech) -- (s1);
+    \draw[arrow] (s1) -- (s2);
+    \draw[arrow] (s2) -- (s3);
+    \draw[arrow] (s3.east) -- ++(0.6,0) |- (s4.west);
+    \draw[arrow] (s4) -- (s5);
+\end{tikzpicture}
+\caption{Workflow de soumission}
+\label{fig:technician-workflow}
+\end{figure}
+
+\section{Fonctionnalités API}
+
+\begin{itemize}
+    \item \api{GET /api/technicians/me/assignments} : Interventions assignées
+    \item \api{PUT /api/assignments/\{id\}/submit-hours} : Soumission heures
+    \item \api{POST /api/interventions/\{id\}/submit-report} : Rapport complet
+\end{itemize}
+
+\section{Contenu du Rapport}
+
+Description des travaux, cause identifiée, actions correctives, pièces utilisées, heures travaillées, date de réalisation.
+
+\section{Statistiques}
+
+\begin{table}[H]
+\centering
+\caption{Statistiques technicien}
+\label{tab:technician-stats}
+\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Métrique} & \textbf{Description} \\
+\midrule
+Total interventions & Nombre réalisées \\
+Total heures & Cumul heures travaillées \\
+Coût MO & Somme des coûts générés \\
+Moyenne heures/interv. & Indicateur efficacité \\
+Nombre compétences & Polyvalence \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{infobox}[Intégration Future]
+L'intégration notification (email, SMS, push) est prévue pour les versions futures.
+\end{infobox}

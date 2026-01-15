@@ -1,0 +1,148 @@
+% ============================================================
+% Chapitre 10 : Intelligence Artificielle
+% ============================================================
+
+\chapter{Intelligence Artificielle}
+\label{chap:ai}
+
+\section{Vue d'Ensemble}
+
+ProAct intègre plusieurs modules IA pour augmenter les capacités analytiques du système GMAO.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=1cm and 1.2cm,
+    component/.style={
+        rectangle, draw=primary, fill=accent!20,
+        minimum width=3cm, minimum height=1cm,
+        font=\small\bfseries, rounded corners
+    },
+    service/.style={
+        rectangle, draw=primary, fill=accent!10,
+        minimum width=2.5cm, minimum height=0.8cm,
+        font=\small
+    },
+    arrow/.style={->, thick}
+]
+    % Main component
+    \node[component] (ai) {Modules IA};
+
+    % Service nodes
+    \node[service, above left=1cm and 0.2cm of ai] (rag) {RAG};
+    \node[service, above right=1cm and 0.2cm of ai] (copilot) {Copilot};
+    \node[service, below left=1cm and 0.2cm of ai] (ocr) {OCR};
+    \node[service, below right=1cm and 0.2cm of ai] (predict) {Forecast};
+
+    % External component
+    \node[component, right=3.5cm of ai, fill=warning!15, minimum width=1.5cm, font=\footnotesize] (ollama) {Ollama};
+
+    % Solid arrows
+    \draw[arrow] (ai) -- (rag);
+    \draw[arrow] (ai) -- (copilot);
+    \draw[arrow] (ai) -- (ocr);
+    \draw[arrow] (ai) -- (predict);
+
+    % Dashed arrows using intermediate coordinates to avoid crossing text
+    \coordinate (rag-to-ollama) at ($(ai.east)!0.5!(ollama.west)+(0,5mm)$);
+    \draw[arrow, dashed] (rag.east) -- (rag-to-ollama) -- (ollama.west);
+
+    \coordinate (copilot-to-ollama) at ($(ai.east)!0.5!(ollama.west)+(0,2.5mm)$);
+    \draw[arrow, dashed] (copilot.east) -- (copilot-to-ollama) -- (ollama.west);
+
+\end{tikzpicture}
+\caption{Modules IA and their connections to services and Ollama}
+
+\label{fig:ai-architecture}
+\end{figure}
+
+\section{Système RAG}
+
+\textbf{RAG} (Retrieval-Augmented Generation) permet d'interroger une base documentaire en langage naturel :
+
+\begin{enumerate}
+    \item \textbf{Retrieval} : Recherche vectorielle de passages pertinents
+    \item \textbf{Augmentation} : Enrichissement du contexte LLM
+    \item \textbf{Generation} : Production de réponses contextualisées
+\end{enumerate}
+
+Modules : RAGService, DocumentProcessor, EmbeddingService, VectorStore (FAISS), LLMService, CacheService (Redis).
+
+\section{Maintenance Copilot}
+
+Le \textbf{Copilot} est un assistant conversationnel qui peut expliquer les KPIs, générer des résumés de santé équipement, produire des rapports, et recommander des actions.
+
+\begin{table}[H]
+\centering
+\caption{Intentions Copilot}
+\label{tab:copilot-intents}
+\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Intent} & \textbf{Description} \\
+\midrule
+KPI\_EXPLANATION & Questions métriques \\
+EQUIPMENT\_HEALTH & État équipement \\
+INTERVENTION\_REPORT & Demande rapport \\
+GENERAL\_QUESTION & Questions générales \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{OCR Vision}
+
+Extraction de texte via modèles Vision-Language (qwen2.5vl:3b). Formats : Markdown, HTML, JSON, Texte brut. Images optimisées avant envoi.
+
+\section{AI Forecast}
+
+Prédiction de la durée de vie restante (RUL) et prévision MTBF sur 90 jours.
+
+\begin{table}[H]
+\centering
+\caption{Algorithmes de prédiction}
+\label{tab:prediction-algos}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Algorithme} & \textbf{Type} & \textbf{Usage} \\
+\midrule
+Random Forest & ML supervisé & Prédiction RUL \\
+XGBoost & ML supervisé & RUL améliorée \\
+Prophet & Séries temp. & Tendance MTBF \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Fournisseurs LLM}
+
+Le système supporte désormais une architecture multi-providers permettant de basculer entre l'inférence locale (Ollama) et cloud (Groq).
+
+\subsection{Configuration}
+
+\begin{table}[H]
+\centering
+\caption{Variables d'environnement AI}
+\label{tab:ai-config}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Variable} & \textbf{Provider} & \textbf{Description} \\
+\midrule
+\tech{LLM\_PROVIDER} & -- & \tech{ollama} ou \tech{groq} \\
+\tech{OLLAMA\_BASE\_URL} & Ollama & URL serveur local \\
+\tech{GROQ\_API\_KEY} & Groq & Clé API Cloud \\
+\tech{AI\_MODEL\_NAME} & Commun & ex: \tech{llama3-70b-8192} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Comparatif}
+
+\begin{itemize}
+    \item \textbf{Ollama} : Confidentialité totale (local), pas de coût API, dépend du hardware serveur.
+    \item \textbf{Groq} : Inférence ultra-rapide (LPUs), idéal pour production, coût à l'usage.
+\end{itemize}
+
+\begin{warningbox}[Prérequis Ollama]
+En mode local, les modèles doivent être téléchargés via \tech{ollama pull <model>}.
+\end{warningbox}

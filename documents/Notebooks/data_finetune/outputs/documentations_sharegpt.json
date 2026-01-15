@@ -1,0 +1,2402 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Programme'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Programme\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n73 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.00 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electrique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electrique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1199 occurrences enregistrées\n\nDURÉE MOYENNE:\n51.26 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nCABLE AVEC CONNECTEUR M8 FEMELLE 5ML                       20\nDETECTEUR DE SERRAGE BROCHE                                11\nDETECTEUR DE PRESENCE OUTIL - MAGASIN CHANAGEMENT OUTIL    11\n\nCOÛT MOYEN:\n25.67"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Informatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Informatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n65 occurrences enregistrées\n\nDURÉE MOYENNE:\n1.50 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\nSeries([], )\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Automate'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Automate\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n82 occurrences enregistrées\n\nDURÉE MOYENNE:\n97.48 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVOYANT PERMANENT DEL ROUGE 24VAC/DC RD / 647.110.75 REMPLACE 644.100.75    2\nVOYANT PERMANENT DEL VERT 24VAC/DC GN / 647.210.75 REMPLACE 644.200.75     2\nPIED AVEC TUBE INTEGRE BK / 975.840.10 /                                   2\n\nCOÛT MOYEN:\n0.00"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Hydraulique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Hydraulique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n1175 occurrences enregistrées\n\nDURÉE MOYENNE:\n8.35 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTRE HYDRAULIQUE HIFI SH63063                     13\nPOMPE & TETE POMPE DE LUBRIFICATION AXE B ET C       9\n(FILTRE SH63063 HIFI) CARTOUCHE FILTRE CS 50P25A     5\n\nCOÛT MOYEN:\n29.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Divers'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Divers\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n98 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.46 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nVITRE PORTE OPERATEUR NMV (Vitrage de securité multicouches 340/660/21)    7\nVITRE PORTE OPERATEUR NHX (vitrage de securite multicouche 570x780x24)     4\nGARNITURE SILICONE                                                         2\n\nCOÛT MOYEN:\n8.69"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Electronique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Electronique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n157 occurrences enregistrées\n\nDURÉE MOYENNE:\n18.94 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nPROJECTEUR HAAS                                                                                                    4\nDETECTEUR DE PROXIMITE L12 NO AVEC CABLE 2 FILS PORTE DE DETECTION 8MM PNP // PRESENCE POT AU NIVEAU DE MAGASIN    3\nLAMPE E36608A01                                                                                                    1\n\nCOÛT MOYEN:\n15.06"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Mécanique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Mécanique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n4061 occurrences enregistrées\n\nDURÉE MOYENNE:\n320.18 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nBROCHE KESLER HSKA63 DMU                           25\nCourroie d'axe C (BELT PCGT 5MX15 5MGT- 600-15)    19\nROULEMENT FAG NJ205-E-TVP2                         12\n\nCOÛT MOYEN:\n79.11"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Arrosage'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Arrosage\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n2035 occurrences enregistrées\n\nDURÉE MOYENNE:\n5.66 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nFILTER ELEMENT d'arrosage au centre DA-300  (Z476Z0500270 FILTER ELEMENT)       32\nFILTER ELEMENT d'arrosage au centre NMV3/4  (FDYPTSF1012400W FILTER ELEMENT)     9\nJOINT TOURNANT NHX M12X1                                                         7\n\nCOÛT MOYEN:\n5.54"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Génère une documentation technique standard pour les interventions de type 'Pneumatique'."
+      },
+      {
+        "from": "gpt",
+        "value": "PROCÉDURE: Pneumatique\n\nDESCRIPTION:\nType de panne fréquent affectant les machines de production.\n\nFRÉQUENCE:\n396 occurrences enregistrées\n\nDURÉE MOYENNE:\n4.82 heures\n\nINTERVENTIONS TYPES:\n\n1. Intervention\n\nPIÈCES FRÉQUEMMENT UTILISÉES:\n[Pièce].Désignation\nREGULATEUR DE PRESSION - FRL                           4\nPressostat pour frein de la table pneumatique axe C    1\nCABLE CODEUR RCN 2380 AXE B ET C                       1\n\nCOÛT MOYEN:\n0.52"
+      }
+    ],
+    "metadata": {
+      "dataset_type": "documentations",
+      "source": "GMAO"
+    }
+  }
+]

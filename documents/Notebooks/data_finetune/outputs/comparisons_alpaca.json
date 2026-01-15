@@ -1,0 +1,2702 @@
+[
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine2\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine2\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine4\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine2\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine6\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine9\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine8\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine8\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine11\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine5\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine11\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine3\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine5\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine4\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine3\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine8\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine8\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine7\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine9\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine10\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine11\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine4\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine12\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine3\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine8\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine12\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine1\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine8\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine2\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine6\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine12\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine6\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine7\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine1\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine4 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine9\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine10\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine3\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine5\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine8\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine8\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine2\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine8\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine10\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine2\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine5\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine2\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine5\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine11\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine7\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine1\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine9\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine9\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine6\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine2\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine3\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine9\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine1\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine2\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine8\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine2\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine9\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine12\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine5\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine1\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine4\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine7\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine7\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine6\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine2\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine3\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine9\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine3\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine6\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine9\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine4\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine1\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine7\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine4\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine11\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine12\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine10\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine6\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine2\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine2\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine8\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine5\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine3\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine12\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine2\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine5\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine4\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine9\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine3\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine2\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine5\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine6\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine3\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine6\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine10\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine4\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine8\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine3\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine5\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine7\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine5\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine11\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine2\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine8\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine6\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine5\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine1\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine8\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine10\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine7\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine10\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine8\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine2\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine8\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine6\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine1\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine10\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine9\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine2\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine1\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine11\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine2\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine10\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine1\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine11\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine4\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine7\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine2\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine6\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine6\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine12\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine4\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine1\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine5\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine10\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine6\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine12\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine6\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine10\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine8\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine11\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine12\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine9\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine6\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine12\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine2\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine1\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine8\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine12\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine9\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine3\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine7\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine11\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine2\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine3\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine9\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine2\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine12\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine10\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine6\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine8\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine9\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine4\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine2 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine8\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine4\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine6\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine8\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine5\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine7\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine10\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine4\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine5\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine4\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine2\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine12\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine8\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine10\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine7\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine3\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine10\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine7\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine1\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine7\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine7\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine7\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine9\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine8\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine4\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine3\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine4\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine8\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine1\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine8\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine11\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine11\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine1\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine12\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine6\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine10\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine5\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine10\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine9\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine10\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine3\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine11\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine12\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine9\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine9\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine5\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine3\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine5\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine7\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine8\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine2\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine1\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine9\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine9\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine3\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine10\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine5\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine12\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine3\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine10\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine9\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine1\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine4\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine4\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine6\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine8\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine3\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine11\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine8\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine4\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine11\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine9\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine12\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine4\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine10\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine6 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine6 vs machine5\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine5\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine7\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine9\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine10\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine8\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine6\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine8.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine8\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine2 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine2 vs machine5\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine5 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine6\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine6 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine4\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine5\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine11\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine2\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine1\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine2\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine7\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine10\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine7\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine1 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine1 vs machine12\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine6.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine6\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine6:\n- Interventions: 144\n- Temps d'arrêt total: 633.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 14.72h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine10\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine1.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine1\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine1:\n- Interventions: 4691\n- Temps d'arrêt total: 290006.00h\n- Coût total: 206812.00\n- Temps d'arrêt moyen: 253.50h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine11\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine4\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine3\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine3\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine10 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine10 vs machine2\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine10 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine3\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine9.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine9\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine5\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine4\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine8 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine7 et machine3.",
+    "input": "",
+    "output": "COMPARAISON: machine7 vs machine3\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine4 et machine12.",
+    "input": "",
+    "output": "COMPARAISON: machine4 vs machine12\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine5.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine5\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine12 et machine4.",
+    "input": "",
+    "output": "COMPARAISON: machine12 vs machine4\n\nmachine12:\n- Interventions: 26\n- Temps d'arrêt total: 52.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 4.00h\n\nmachine4:\n- Interventions: 1416\n- Temps d'arrêt total: 4532.00h\n- Coût total: 65908.00\n- Temps d'arrêt moyen: 17.36h\n\nCONCLUSION:\nmachine12 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine9 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine9 vs machine2\n\nmachine9:\n- Interventions: 56\n- Temps d'arrêt total: 8901.00h\n- Coût total: 1354.00\n- Temps d'arrêt moyen: 445.05h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine9 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine3 et machine2.",
+    "input": "",
+    "output": "COMPARAISON: machine3 vs machine2\n\nmachine3:\n- Interventions: 205\n- Temps d'arrêt total: 323.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 21.53h\n\nmachine2:\n- Interventions: 1282\n- Temps d'arrêt total: 4577.00h\n- Coût total: 40963.00\n- Temps d'arrêt moyen: 21.19h\n\nCONCLUSION:\nmachine3 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine5 et machine11.",
+    "input": "",
+    "output": "COMPARAISON: machine5 vs machine11\n\nmachine5:\n- Interventions: 1171\n- Temps d'arrêt total: 17202.00h\n- Coût total: 36090.00\n- Temps d'arrêt moyen: 88.67h\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine8 et machine7.",
+    "input": "",
+    "output": "COMPARAISON: machine8 vs machine7\n\nmachine8:\n- Interventions: 174\n- Temps d'arrêt total: 551.00h\n- Coût total: 75.00\n- Temps d'arrêt moyen: 11.98h\n\nmachine7:\n- Interventions: 160\n- Temps d'arrêt total: 3780.00h\n- Coût total: 4440.00\n- Temps d'arrêt moyen: 78.75h\n\nCONCLUSION:\nmachine7 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  },
+  {
+    "instruction": "Compare la fiabilité et les coûts de maintenance entre machine11 et machine10.",
+    "input": "",
+    "output": "COMPARAISON: machine11 vs machine10\n\nmachine11:\n- Interventions: 4\n- Temps d'arrêt total: 24.00h\n- Coût total: 0.00\n- Temps d'arrêt moyen: 12.00h\n\nmachine10:\n- Interventions: 12\n- Temps d'arrêt total: 35.00h\n- Coût total: 674.00\n- Temps d'arrêt moyen: 4.38h\n\nCONCLUSION:\nmachine11 est plus fiable avec moins d'interventions.",
+    "metadata": {
+      "dataset_type": "comparisons",
+      "source": "GMAO"
+    }
+  }
+]

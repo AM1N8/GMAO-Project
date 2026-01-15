@@ -1,0 +1,684 @@
+2025-11-22 14:44:36.741 | INFO     | __main__:<module>:5 - Starting ARIMA and Prophet Forecasting Analysis
+2025-11-22 14:44:55.517 | INFO     | __main__:prepare_time_series_data:3 - Preparing time series data for forecasting...
+2025-11-22 14:44:55.539 | INFO     | __main__:prepare_time_series_data:24 - Prepared time series data for 12 machines
+2025-11-22 14:46:20.859 | INFO     | __main__:<module>:8 - Starting ARIMA and Prophet Forecasting Analysis
+2025-11-22 14:46:24.255 | INFO     | __main__:prepare_time_series_data:3 - Preparing time series data for forecasting...
+2025-11-22 14:46:24.286 | INFO     | __main__:prepare_time_series_data:24 - Prepared time series data for 12 machines
+2025-11-22 14:47:02.065 | INFO     | __main__:run_comprehensive_forecasting:3 - Starting comprehensive forecasting analysis...
+2025-11-22 14:47:02.066 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine1
+2025-11-22 14:47:02.067 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine1
+2025-11-22 14:47:02.068 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - availability
+2025-11-22 14:47:03.149 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-availability: (0, 0, 1)
+2025-11-22 14:47:03.178 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - availability
+2025-11-22 14:47:03.182 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - availability
+2025-11-22 14:47:03.778 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=27167 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\67mmihme.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\bfgpvvim.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model5n892fw5\prophet_model-20251122144703.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:03.779 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:05.243 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:05.245 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:05.344 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=82177 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\qga27v63.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\o11vxtht.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelz47x0jc2\prophet_model-20251122144705.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:05.346 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine1
+2025-11-22 14:47:05.346 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - mtbf
+2025-11-22 14:47:06.389 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-mtbf: (1, 0, 0)
+2025-11-22 14:47:06.395 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - mtbf
+2025-11-22 14:47:06.396 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - mtbf
+2025-11-22 14:47:06.541 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=42623 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\8bla1lgi.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\wgpkgjik.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modellb7k64xr\prophet_model-20251122144706.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:06.542 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:08.464 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:08.464 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:08.561 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=18480 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\i56_nawv.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\veu1y5tk.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelrtdgnmef\prophet_model-20251122144708.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:08.562 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine1
+2025-11-22 14:47:08.563 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - mttr
+2025-11-22 14:47:09.247 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-mttr: (0, 0, 0)
+2025-11-22 14:47:09.252 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - mttr
+2025-11-22 14:47:09.253 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - mttr
+2025-11-22 14:47:09.369 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=54121 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ynmi6iyr.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\u7aag2ty.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelgpifg3df\prophet_model-20251122144709.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:09.370 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:10.416 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:10.417 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:10.550 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=92006 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vlnobqho.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\bwcdh8ge.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelu0ozhou2\prophet_model-20251122144710.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:10.551 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine10
+2025-11-22 14:47:10.553 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine10
+2025-11-22 14:47:10.554 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - availability
+2025-11-22 14:47:10.564 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine10-availability: (0, 0, 0)
+2025-11-22 14:47:10.570 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine10 - availability
+2025-11-22 14:47:10.571 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - availability
+2025-11-22 14:47:10.847 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine10 - availability
+2025-11-22 14:47:10.848 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine10
+2025-11-22 14:47:10.849 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - mtbf
+2025-11-22 14:47:10.853 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine10 - mtbf: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:47:10.854 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - mtbf
+2025-11-22 14:47:11.016 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine10 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=59228 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\2gkkzkhk.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ec_86_vo.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelmcl99uza\prophet_model-20251122144710.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:11.017 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine10
+2025-11-22 14:47:11.019 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - mttr
+2025-11-22 14:47:11.032 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine10-mttr: (0, 0, 0)
+2025-11-22 14:47:11.037 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine10 - mttr
+2025-11-22 14:47:11.038 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - mttr
+2025-11-22 14:47:11.252 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine10 - mttr
+2025-11-22 14:47:11.254 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine11
+2025-11-22 14:47:11.255 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - availability
+2025-11-22 14:47:11.255 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - mtbf
+2025-11-22 14:47:11.257 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - mttr
+2025-11-22 14:47:11.258 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine12
+2025-11-22 14:47:11.258 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine12
+2025-11-22 14:47:11.259 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - availability
+2025-11-22 14:47:11.276 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine12-availability: (0, 0, 0)
+2025-11-22 14:47:11.284 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine12 - availability
+2025-11-22 14:47:11.285 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - availability
+2025-11-22 14:47:11.516 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine12 - availability
+2025-11-22 14:47:11.518 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:11.518 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.519 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:11.520 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.520 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine12
+2025-11-22 14:47:11.521 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - mtbf
+2025-11-22 14:47:11.523 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine12 - mtbf: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:47:11.524 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - mtbf
+2025-11-22 14:47:11.620 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine12 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=4092 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\p0zt1jgc.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\r6n_2gz2.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model_4tdw1bi\prophet_model-20251122144711.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:11.621 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:11.622 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.623 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:11.625 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.625 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine12
+2025-11-22 14:47:11.626 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - mttr
+2025-11-22 14:47:11.641 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine12-mttr: (0, 0, 0)
+2025-11-22 14:47:11.647 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine12 - mttr
+2025-11-22 14:47:11.648 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - mttr
+2025-11-22 14:47:11.856 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine12 - mttr
+2025-11-22 14:47:11.857 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:11.858 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.859 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:11.860 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:47:11.860 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine2
+2025-11-22 14:47:11.861 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine2
+2025-11-22 14:47:11.862 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - availability
+2025-11-22 14:47:15.192 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-availability: (1, 0, 1)
+2025-11-22 14:47:15.198 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - availability
+2025-11-22 14:47:15.199 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - availability
+2025-11-22 14:47:15.339 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=51903 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gfbui9ej.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\k9ppw98g.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model4xt1mo63\prophet_model-20251122144715.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:15.341 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:17.278 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:17.279 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:17.398 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=6821 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\08w70u1c.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\__oc28c4.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model0jyh08u1\prophet_model-20251122144717.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:17.400 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine2
+2025-11-22 14:47:17.401 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - mtbf
+2025-11-22 14:47:21.825 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-mtbf: (0, 0, 2)
+2025-11-22 14:47:21.830 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - mtbf
+2025-11-22 14:47:21.831 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - mtbf
+2025-11-22 14:47:21.954 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=68660 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\q_7sby_9.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\k6s40_fr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelprxgq71r\prophet_model-20251122144721.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:21.956 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:26.894 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:26.895 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:26.991 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=81674 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\a59y7j1s.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\fubal7a6.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelqgpxcms7\prophet_model-20251122144726.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:26.992 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine2
+2025-11-22 14:47:26.993 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - mttr
+2025-11-22 14:47:27.762 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-mttr: (1, 0, 0)
+2025-11-22 14:47:27.768 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - mttr
+2025-11-22 14:47:27.769 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - mttr
+2025-11-22 14:47:27.902 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=7970 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\zt_xd55f.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\67a3vb60.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model_ttqoiyg\prophet_model-20251122144727.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:27.903 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:29.008 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:29.011 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:29.151 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=1480 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dn7kt7my.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cppph13q.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model076ztzcd\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.152 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine3
+2025-11-22 14:47:29.153 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine3
+2025-11-22 14:47:29.154 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - availability
+2025-11-22 14:47:29.158 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - availability: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:47:29.160 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - availability
+2025-11-22 14:47:29.283 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=33313 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\7oqy1rsg.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rfd5v9ha.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model09nxd1ut\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.284 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:29.287 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:47:29.289 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:29.408 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=33137 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xdxcd12x.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\95n295fb.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelbmkyflm7\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.409 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine3
+2025-11-22 14:47:29.410 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - mtbf
+2025-11-22 14:47:29.414 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - mtbf: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:47:29.418 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - mtbf
+2025-11-22 14:47:29.535 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=35906 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ht45bdcm.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dyzjuucf.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelsi0m8qgx\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.536 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:29.538 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:47:29.539 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:29.698 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=14541 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\1228dcfz.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\23b2b4tz.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelrw7gfn5j\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.700 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine3
+2025-11-22 14:47:29.702 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - mttr
+2025-11-22 14:47:29.707 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - mttr: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:47:29.709 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - mttr
+2025-11-22 14:47:29.841 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=45817 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\23v0_xpa.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\fcsiibb1.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model3whqk01g\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.843 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:29.846 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:47:29.847 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:29.949 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=83596 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\seqs9km1.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\8buzlkj0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model4oggtaka\prophet_model-20251122144729.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:29.950 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine4
+2025-11-22 14:47:29.951 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine4
+2025-11-22 14:47:29.951 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - availability
+2025-11-22 14:47:34.481 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-availability: (0, 1, 1)
+2025-11-22 14:47:34.485 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - availability
+2025-11-22 14:47:34.486 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - availability
+2025-11-22 14:47:34.611 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=83537 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\yokqg7sp.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rw5gztx_.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelnmtf2qix\prophet_model-20251122144734.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:34.612 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:39.833 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:39.834 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:39.943 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=17421 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\3l_5gjty.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\5x_xnt24.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeli3mru4on\prophet_model-20251122144739.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:39.944 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine4
+2025-11-22 14:47:39.946 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - mtbf
+2025-11-22 14:47:43.524 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-mtbf: (0, 1, 1)
+2025-11-22 14:47:43.530 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - mtbf
+2025-11-22 14:47:43.531 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - mtbf
+2025-11-22 14:47:43.658 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=30544 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\lubwjgl0.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\m3u9vgsi.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelc4vaz99z\prophet_model-20251122144743.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:43.659 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:47.672 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:47.673 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:47.771 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=27514 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\17mt_arx.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cphhd0tj.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelp0_9_fyz\prophet_model-20251122144747.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:47.773 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine4
+2025-11-22 14:47:47.773 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - mttr
+2025-11-22 14:47:48.340 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-mttr: (0, 0, 0)
+2025-11-22 14:47:48.345 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - mttr
+2025-11-22 14:47:48.346 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - mttr
+2025-11-22 14:47:48.487 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=21604 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vbddaxni.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\bzhz0ny9.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelh4zmzeeh\prophet_model-20251122144748.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:48.489 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:49.457 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:49.458 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:49.562 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=42538 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6nq0bwlj.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\olukqis8.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model3gfceg12\prophet_model-20251122144749.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:49.563 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine5
+2025-11-22 14:47:49.564 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine5
+2025-11-22 14:47:49.565 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - availability
+2025-11-22 14:47:50.999 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-availability: (0, 1, 1)
+2025-11-22 14:47:51.004 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - availability
+2025-11-22 14:47:51.006 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - availability
+2025-11-22 14:47:51.104 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=33635 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\1k0bemrd.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kh6q6ntr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelbovkl78e\prophet_model-20251122144751.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:51.106 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:52.705 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:52.706 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:52.809 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=95637 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\uqvqgegz.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\akt8ncam.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelppgyhy2p\prophet_model-20251122144752.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:52.810 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine5
+2025-11-22 14:47:52.811 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - mtbf
+2025-11-22 14:47:53.589 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-mtbf: (0, 1, 1)
+2025-11-22 14:47:53.594 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - mtbf
+2025-11-22 14:47:53.596 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - mtbf
+2025-11-22 14:47:53.689 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=21818 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\eb4nqstd.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\j8d666or.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelfmqz62s9\prophet_model-20251122144753.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:53.690 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:55.053 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:55.054 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:55.149 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=37209 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ge144m7p.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cizxenwa.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelfgpc_w44\prophet_model-20251122144755.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:55.150 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine5
+2025-11-22 14:47:55.152 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - mttr
+2025-11-22 14:47:55.891 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-mttr: (0, 0, 0)
+2025-11-22 14:47:55.895 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - mttr
+2025-11-22 14:47:55.896 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - mttr
+2025-11-22 14:47:55.993 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=54583 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dl8y1z2a.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\wjdl9ogp.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model37sbk0ae\prophet_model-20251122144755.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:55.994 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:57.050 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:57.051 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:57.190 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=463 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\toyt3fno.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\hy35_1t7.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modely02vjb18\prophet_model-20251122144757.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:57.191 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine6
+2025-11-22 14:47:57.192 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine6
+2025-11-22 14:47:57.193 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - availability
+2025-11-22 14:47:57.775 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-availability: (0, 0, 0)
+2025-11-22 14:47:57.781 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - availability
+2025-11-22 14:47:57.782 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - availability
+2025-11-22 14:47:57.884 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=54806 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6xuvjonm.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ax0_s4dh.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model5ec9961e\prophet_model-20251122144757.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:57.887 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:47:58.944 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:47:58.946 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:47:59.080 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=11071 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\twp7ige3.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\f8f4o63o.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model12qh2xwh\prophet_model-20251122144759.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:47:59.081 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine6
+2025-11-22 14:47:59.082 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - mtbf
+2025-11-22 14:48:01.315 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-mtbf: (0, 0, 0)
+2025-11-22 14:48:01.321 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - mtbf
+2025-11-22 14:48:01.322 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - mtbf
+2025-11-22 14:48:01.425 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=31827 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kgju9p_r.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\h_x_hx70.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modele2pi8no7\prophet_model-20251122144801.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:01.426 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:04.261 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:04.262 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:04.385 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=57805 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\obg_8kbl.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\pm7w1v46.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelj74twt_w\prophet_model-20251122144804.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:04.386 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine6
+2025-11-22 14:48:04.388 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - mttr
+2025-11-22 14:48:04.983 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-mttr: (0, 0, 0)
+2025-11-22 14:48:04.990 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - mttr
+2025-11-22 14:48:04.991 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - mttr
+2025-11-22 14:48:05.144 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=82960 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\9plyngli.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\s05rktaw.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelugfddigg\prophet_model-20251122144805.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:05.147 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:06.478 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:06.478 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:06.625 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=16008 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\a0sov7k3.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kbvnrwt2.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model1jk3f1i5\prophet_model-20251122144806.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:06.626 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine7
+2025-11-22 14:48:06.628 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine7
+2025-11-22 14:48:06.630 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - availability
+2025-11-22 14:48:08.625 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-availability: (0, 0, 1)
+2025-11-22 14:48:08.632 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - availability
+2025-11-22 14:48:08.634 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - availability
+2025-11-22 14:48:08.764 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=8801 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\1vjju3oo.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xl25f7f6.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeljg7s_oe5\prophet_model-20251122144808.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:08.766 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:10.432 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:10.433 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:10.524 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=25161 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\t1gt4hf7.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\oxq4rmm2.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model8n7nn1wa\prophet_model-20251122144810.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:10.525 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine7
+2025-11-22 14:48:10.526 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - mtbf
+2025-11-22 14:48:11.203 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-mtbf: (1, 0, 0)
+2025-11-22 14:48:11.209 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - mtbf
+2025-11-22 14:48:11.210 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - mtbf
+2025-11-22 14:48:11.323 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=47351 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\g9yzu6zq.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\acjqfezh.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelmgk6__2z\prophet_model-20251122144811.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:11.324 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:12.211 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:12.213 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:12.317 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=1327 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\d56gsuq4.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vmiz4rjs.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelerfmy3i7\prophet_model-20251122144812.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:12.318 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine7
+2025-11-22 14:48:12.319 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - mttr
+2025-11-22 14:48:12.983 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-mttr: (0, 0, 0)
+2025-11-22 14:48:12.988 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - mttr
+2025-11-22 14:48:12.989 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - mttr
+2025-11-22 14:48:13.099 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=84591 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\3fk2po6_.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\goyq07ty.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelds361t6m\prophet_model-20251122144813.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:13.100 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:14.100 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:14.101 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:14.206 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=98637 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kaji_6ub.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\uyk9ol55.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelwjsxfsod\prophet_model-20251122144814.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:14.207 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine8
+2025-11-22 14:48:14.208 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine8
+2025-11-22 14:48:14.209 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - availability
+2025-11-22 14:48:16.088 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-availability: (0, 1, 1)
+2025-11-22 14:48:16.092 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - availability
+2025-11-22 14:48:16.094 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - availability
+2025-11-22 14:48:16.202 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=80003 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\soiwqexe.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\sisi48n6.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model8vn8e8dy\prophet_model-20251122144816.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:16.204 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:18.617 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:18.618 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:18.714 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=79935 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\qbsg8l1h.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\sfu516ox.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelaxqtqp16\prophet_model-20251122144818.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:18.715 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine8
+2025-11-22 14:48:18.717 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - mtbf
+2025-11-22 14:48:20.330 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-mtbf: (1, 0, 0)
+2025-11-22 14:48:20.335 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - mtbf
+2025-11-22 14:48:20.335 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - mtbf
+2025-11-22 14:48:20.439 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=27595 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\d_pwmmz4.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0f6h98gr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model3odad6ua\prophet_model-20251122144820.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:20.441 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:22.617 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:22.618 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:22.720 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=71298 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ec8214yv.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\lo28bxd7.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelpr0r8ep4\prophet_model-20251122144822.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:22.722 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine8
+2025-11-22 14:48:22.723 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - mttr
+2025-11-22 14:48:23.295 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-mttr: (0, 0, 0)
+2025-11-22 14:48:23.299 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - mttr
+2025-11-22 14:48:23.300 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - mttr
+2025-11-22 14:48:23.408 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=5460 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\j9io8tkd.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ls8y1m8b.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model4cbxkzj2\prophet_model-20251122144823.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:23.409 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:26.606 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:26.607 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:26.711 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=30390 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\di7o__zx.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0djozx7t.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelbtux10w1\prophet_model-20251122144826.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:26.712 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine9
+2025-11-22 14:48:26.713 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine9
+2025-11-22 14:48:26.714 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - availability
+2025-11-22 14:48:27.219 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-availability: (0, 0, 0)
+2025-11-22 14:48:27.224 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - availability
+2025-11-22 14:48:27.224 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - availability
+2025-11-22 14:48:27.316 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=34022 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\d0wqykjp.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\1eamivci.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model5lqtb4l4\prophet_model-20251122144827.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:27.318 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:28.210 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: name 'mean_absolute_percentage_error' is not defined
+2025-11-22 14:48:28.211 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:28.323 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=36412 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0x2eno7r.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\mnxhkpyv.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model890gen4w\prophet_model-20251122144828.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:28.324 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine9
+2025-11-22 14:48:28.325 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - mtbf
+2025-11-22 14:48:29.692 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-mtbf: (0, 0, 0)
+2025-11-22 14:48:29.698 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - mtbf
+2025-11-22 14:48:29.698 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - mtbf
+2025-11-22 14:48:29.788 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=9326 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\p80d7jdr.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ko0fqk39.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeljhxm3lpu\prophet_model-20251122144829.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:29.789 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:29.797 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:48:29.799 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:29.904 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=28860 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jpk50dy1.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\g85i0ll1.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeltsyewe_7\prophet_model-20251122144829.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:29.905 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine9
+2025-11-22 14:48:29.906 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - mttr
+2025-11-22 14:48:30.548 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-mttr: (0, 0, 0)
+2025-11-22 14:48:30.552 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - mttr
+2025-11-22 14:48:30.553 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - mttr
+2025-11-22 14:48:30.641 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=87145 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0g4i6zu3.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\lycudxfj.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelw8ml5ijg\prophet_model-20251122144830.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:30.642 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:48:30.648 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:48:30.649 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:48:30.822 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=97343 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jhf3v3pj.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\nvad9b7b.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model6g6lvoj4\prophet_model-20251122144830.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:48:30.825 | SUCCESS  | __main__:run_comprehensive_forecasting:47 - Comprehensive forecasting completed
+2025-11-22 14:49:11.333 | INFO     | __main__:<module>:21 - Starting ARIMA and Prophet Forecasting Analysis
+2025-11-22 14:49:25.531 | INFO     | __main__:run_comprehensive_forecasting:3 - Starting comprehensive forecasting analysis...
+2025-11-22 14:49:25.532 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine1
+2025-11-22 14:49:25.534 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine1
+2025-11-22 14:49:25.535 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - availability
+2025-11-22 14:49:26.494 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-availability: (0, 0, 1)
+2025-11-22 14:49:26.499 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - availability
+2025-11-22 14:49:26.500 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - availability
+2025-11-22 14:49:26.625 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=5200 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\67n8pmx8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vffi9m1k.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelpqc7yaor\prophet_model-20251122144926.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:26.627 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:27.993 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 26.90, MAPE: 28.4%
+2025-11-22 14:49:27.995 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:28.096 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=13851 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jc7yef_h.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\49o3a6o5.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model8bt0i59m\prophet_model-20251122144928.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:28.098 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine1
+2025-11-22 14:49:28.099 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - mtbf
+2025-11-22 14:49:29.176 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-mtbf: (1, 0, 0)
+2025-11-22 14:49:29.186 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - mtbf
+2025-11-22 14:49:29.188 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - mtbf
+2025-11-22 14:49:29.332 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=69575 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xe623fgc.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\uj41ac10.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelgej8ouix\prophet_model-20251122144929.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:29.334 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:31.215 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 27.30, MAPE: 78.0%
+2025-11-22 14:49:31.216 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:31.319 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=86759 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\h65hw_wf.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\nb6zk0_x.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model_eke7xp5\prophet_model-20251122144931.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:31.321 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine1
+2025-11-22 14:49:31.322 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine1 - mttr
+2025-11-22 14:49:31.881 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine1-mttr: (0, 0, 0)
+2025-11-22 14:49:31.886 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine1 - mttr
+2025-11-22 14:49:31.887 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine1 - mttr
+2025-11-22 14:49:32.010 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine1 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=36648 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6nrli3uw.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\c3yqxd54.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelecv5rjb2\prophet_model-20251122144931.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:32.012 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:33.044 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 32.99, MAPE: 2326.4%
+2025-11-22 14:49:33.044 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:33.184 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=73392 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\1gpx58_8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dhu2uo8b.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model1gbu3_m6\prophet_model-20251122144933.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:33.185 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine10
+2025-11-22 14:49:33.187 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine10
+2025-11-22 14:49:33.187 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - availability
+2025-11-22 14:49:33.197 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine10-availability: (0, 0, 0)
+2025-11-22 14:49:33.202 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine10 - availability
+2025-11-22 14:49:33.203 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - availability
+2025-11-22 14:49:33.392 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine10 - availability
+2025-11-22 14:49:33.393 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine10
+2025-11-22 14:49:33.394 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - mtbf
+2025-11-22 14:49:33.395 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine10 - mtbf: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:49:33.396 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - mtbf
+2025-11-22 14:49:33.487 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine10 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=26454 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\v27w57jc.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vms330rh.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelq6gc4ufm\prophet_model-20251122144933.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:33.488 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine10
+2025-11-22 14:49:33.489 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine10 - mttr
+2025-11-22 14:49:33.500 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine10-mttr: (0, 0, 0)
+2025-11-22 14:49:33.504 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine10 - mttr
+2025-11-22 14:49:33.505 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine10 - mttr
+2025-11-22 14:49:33.694 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine10 - mttr
+2025-11-22 14:49:33.696 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine11
+2025-11-22 14:49:33.697 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - availability
+2025-11-22 14:49:33.697 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - mtbf
+2025-11-22 14:49:33.698 | WARNING  | __main__:run_comprehensive_forecasting:18 - Insufficient data for machine11 - mttr
+2025-11-22 14:49:33.700 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine12
+2025-11-22 14:49:33.701 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine12
+2025-11-22 14:49:33.701 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - availability
+2025-11-22 14:49:33.714 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine12-availability: (0, 0, 0)
+2025-11-22 14:49:33.719 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine12 - availability
+2025-11-22 14:49:33.720 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - availability
+2025-11-22 14:49:33.898 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine12 - availability
+2025-11-22 14:49:33.899 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:33.900 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:49:33.901 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:33.901 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:49:33.902 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine12
+2025-11-22 14:49:33.902 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - mtbf
+2025-11-22 14:49:33.904 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine12 - mtbf: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:49:33.906 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - mtbf
+2025-11-22 14:49:34.001 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine12 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=33720 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\pxz6vfco.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vwc3_7ph.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelh257x5lv\prophet_model-20251122144933.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:34.003 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:34.004 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:49:34.004 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:34.005 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:49:34.006 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine12
+2025-11-22 14:49:34.006 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine12 - mttr
+2025-11-22 14:49:34.018 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine12-mttr: (0, 0, 0)
+2025-11-22 14:49:34.021 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine12 - mttr
+2025-11-22 14:49:34.022 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine12 - mttr
+2025-11-22 14:49:34.238 | SUCCESS  | __main__:forecast_with_prophet:50 - Prophet forecast completed for machine12 - mttr
+2025-11-22 14:49:34.239 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:34.240 | WARNING  | __main__:evaluate_arima_model:62 - Insufficient data for proper evaluation
+2025-11-22 14:49:34.240 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:34.242 | WARNING  | __main__:evaluate_prophet_model:63 - Insufficient data for proper evaluation
+2025-11-22 14:49:34.242 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine2
+2025-11-22 14:49:34.243 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine2
+2025-11-22 14:49:34.244 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - availability
+2025-11-22 14:49:37.364 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-availability: (1, 0, 1)
+2025-11-22 14:49:37.369 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - availability
+2025-11-22 14:49:37.370 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - availability
+2025-11-22 14:49:37.499 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=3299 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dppuzrwj.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\9k2kpkgr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model59vopn09\prophet_model-20251122144937.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:37.499 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:39.352 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 35.34, MAPE: 4321071150980444160.0%
+2025-11-22 14:49:39.353 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:39.454 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=36252 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\n7hao44e.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\7frn4cpj.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelh__y316g\prophet_model-20251122144939.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:39.456 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine2
+2025-11-22 14:49:39.457 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - mtbf
+2025-11-22 14:49:43.637 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-mtbf: (0, 0, 2)
+2025-11-22 14:49:43.642 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - mtbf
+2025-11-22 14:49:43.643 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - mtbf
+2025-11-22 14:49:43.761 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=60601 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vrs5pmx9.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\_pxxk3td.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model879d5vfv\prophet_model-20251122144943.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:43.762 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:48.306 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 146.04, MAPE: 352.8%
+2025-11-22 14:49:48.307 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:48.418 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=94022 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6rofi9xv.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cv0nd9vi.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model8g7bathm\prophet_model-20251122144948.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:48.420 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine2
+2025-11-22 14:49:48.421 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine2 - mttr
+2025-11-22 14:49:49.091 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine2-mttr: (1, 0, 0)
+2025-11-22 14:49:49.097 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine2 - mttr
+2025-11-22 14:49:49.097 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine2 - mttr
+2025-11-22 14:49:49.215 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine2 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=99040 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\a5xtj2y6.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ikan_9s0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelb5sfp9uh\prophet_model-20251122144949.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:49.215 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:50.267 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 4.61, MAPE: 386183699939203520.0%
+2025-11-22 14:49:50.268 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:50.401 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=71155 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\khlvi94j.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rxxbc779.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model6qbzw9sz\prophet_model-20251122144950.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:50.402 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine3
+2025-11-22 14:49:50.403 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine3
+2025-11-22 14:49:50.404 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - availability
+2025-11-22 14:49:50.407 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - availability: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:49:50.408 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - availability
+2025-11-22 14:49:50.513 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=26194 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6etc4sbj.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\2aj_y0so.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelc6vlawsa\prophet_model-20251122144950.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:50.513 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:50.516 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:49:50.517 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:50.611 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=87094 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\07luo0ca.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6yit_t7t.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelcj5c4egv\prophet_model-20251122144950.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:50.613 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine3
+2025-11-22 14:49:50.615 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - mtbf
+2025-11-22 14:49:50.618 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - mtbf: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:49:50.620 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - mtbf
+2025-11-22 14:49:50.721 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=57116 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vltgt4tk.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\4lsshrb_.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelfmtht0rt\prophet_model-20251122144950.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:50.722 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:50.724 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:49:50.725 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:50.913 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=48257 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\74ma47oy.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ykfz3lgn.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeld3bftka5\prophet_model-20251122144950.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:50.916 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine3
+2025-11-22 14:49:50.917 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine3 - mttr
+2025-11-22 14:49:50.923 | ERROR    | __main__:forecast_with_arima:53 - ARIMA failed for machine3 - mttr: All lag values up to 'maxlag' produced singular matrices. Consider using a longer series, a different lag term or a different test.
+2025-11-22 14:49:50.925 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine3 - mttr
+2025-11-22 14:49:51.054 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine3 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=44190 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\56r90ogt.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\3uycghxg.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelx02garl_\prophet_model-20251122144951.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:51.055 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:49:51.058 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: There are no more samples after a first-order seasonal differencing. See http://alkaline-ml.com/pmdarima/seasonal-differencing-issues.html for a more in-depth explanation and potential work-arounds.
+2025-11-22 14:49:51.059 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:49:51.206 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=87316 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\igfe6u21.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\z58mv6_i.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7xu9ie_z\prophet_model-20251122144951.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:51.208 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine4
+2025-11-22 14:49:51.209 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine4
+2025-11-22 14:49:51.210 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - availability
+2025-11-22 14:49:55.524 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-availability: (0, 1, 1)
+2025-11-22 14:49:55.529 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - availability
+2025-11-22 14:49:55.530 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - availability
+2025-11-22 14:49:55.648 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=38936 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\8gxvkep2.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kv62_9qe.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7kvllp8_\prophet_model-20251122144955.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:49:55.650 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:01.071 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 26.08, MAPE: 6235903491335983104.0%
+2025-11-22 14:50:01.073 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:01.176 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=86281 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\2z7n8mgr.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\fr9tnrtm.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeln03dhl68\prophet_model-20251122145001.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:01.177 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine4
+2025-11-22 14:50:01.178 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - mtbf
+2025-11-22 14:50:04.612 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-mtbf: (0, 1, 1)
+2025-11-22 14:50:04.616 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - mtbf
+2025-11-22 14:50:04.617 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - mtbf
+2025-11-22 14:50:04.735 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=73406 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xq69jqsf.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\oifvhiz3.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelj31eq0hz\prophet_model-20251122145004.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:04.737 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:08.560 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 15.34, MAPE: 24.2%
+2025-11-22 14:50:08.562 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:08.657 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=51124 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gtkccg41.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rdchytk5.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelfsaavlc8\prophet_model-20251122145008.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:08.659 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine4
+2025-11-22 14:50:08.660 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine4 - mttr
+2025-11-22 14:50:09.180 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine4-mttr: (0, 0, 0)
+2025-11-22 14:50:09.184 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine4 - mttr
+2025-11-22 14:50:09.185 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine4 - mttr
+2025-11-22 14:50:09.303 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine4 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=60953 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\hso17o2m.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\wfq2feuw.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model968jk8vv\prophet_model-20251122145009.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:09.304 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:10.272 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 9.08, MAPE: 752169564568159616.0%
+2025-11-22 14:50:10.274 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:10.365 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=52871 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\afiqheb8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\v1znoty1.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelytmv42yf\prophet_model-20251122145010.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:10.366 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine5
+2025-11-22 14:50:10.367 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine5
+2025-11-22 14:50:10.368 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - availability
+2025-11-22 14:50:11.720 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-availability: (0, 1, 1)
+2025-11-22 14:50:11.724 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - availability
+2025-11-22 14:50:11.725 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - availability
+2025-11-22 14:50:11.817 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=70605 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ys9htfbo.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\x1gskuj0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelokibmqou\prophet_model-20251122145011.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:11.818 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:13.442 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 20.34, MAPE: 26.3%
+2025-11-22 14:50:13.444 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:13.539 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=2124 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\8xfz180s.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\38vdurjr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelz5hd44x4\prophet_model-20251122145013.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:13.540 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine5
+2025-11-22 14:50:13.540 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - mtbf
+2025-11-22 14:50:14.292 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-mtbf: (0, 1, 1)
+2025-11-22 14:50:14.297 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - mtbf
+2025-11-22 14:50:14.298 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - mtbf
+2025-11-22 14:50:14.390 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=52481 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\2suzpeso.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\i_l8e7zv.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model15py0bjc\prophet_model-20251122145014.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:14.391 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:15.740 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 88.30, MAPE: 217.5%
+2025-11-22 14:50:15.741 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:15.854 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=91690 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dz5sb6ae.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\8kzv3o10.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelxfc0nxa6\prophet_model-20251122145015.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:15.856 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine5
+2025-11-22 14:50:15.857 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine5 - mttr
+2025-11-22 14:50:16.524 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine5-mttr: (0, 0, 0)
+2025-11-22 14:50:16.529 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine5 - mttr
+2025-11-22 14:50:16.530 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine5 - mttr
+2025-11-22 14:50:16.634 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine5 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=80912 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\y64rp1jp.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0glhvu6f.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelvfc8lpit\prophet_model-20251122145016.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:16.634 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:17.652 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 30.61, MAPE: 2165.6%
+2025-11-22 14:50:17.653 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:17.852 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=75307 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\w60bvmby.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\v_wydzmx.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model_xem67d6\prophet_model-20251122145017.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:17.855 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine6
+2025-11-22 14:50:17.857 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine6
+2025-11-22 14:50:17.859 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - availability
+2025-11-22 14:50:18.463 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-availability: (0, 0, 0)
+2025-11-22 14:50:18.469 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - availability
+2025-11-22 14:50:18.469 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - availability
+2025-11-22 14:50:18.570 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=10820 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cew0ijla.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\9lgrb9c3.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelpzqp7xis\prophet_model-20251122145018.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:18.572 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:19.532 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 11.91, MAPE: 5364986946040812544.0%
+2025-11-22 14:50:19.532 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:19.637 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=69654 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0eo4kjs9.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vqd9mdlv.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7jqxx8k9\prophet_model-20251122145019.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:19.639 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine6
+2025-11-22 14:50:19.640 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - mtbf
+2025-11-22 14:50:21.829 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-mtbf: (0, 0, 0)
+2025-11-22 14:50:21.834 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - mtbf
+2025-11-22 14:50:21.835 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - mtbf
+2025-11-22 14:50:21.942 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=72295 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\da26lozw.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kz0tb5x5.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelcliwct2g\prophet_model-20251122145021.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:21.943 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:24.548 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 480.61, MAPE: 209.2%
+2025-11-22 14:50:24.549 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:24.659 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=57844 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\l32phhgm.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\12bppmrd.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model399u1wp3\prophet_model-20251122145024.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:24.660 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine6
+2025-11-22 14:50:24.661 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine6 - mttr
+2025-11-22 14:50:25.142 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine6-mttr: (0, 0, 0)
+2025-11-22 14:50:25.146 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine6 - mttr
+2025-11-22 14:50:25.147 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine6 - mttr
+2025-11-22 14:50:25.254 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine6 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=46034 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\word8t2c.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\b30tijmp.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelqeje2oh4\prophet_model-20251122145025.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:25.255 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:26.486 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 0.00, MAPE: 0.0%
+2025-11-22 14:50:26.488 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:26.649 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=32452 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\mmdav0kz.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\i2nxbd1o.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelh_0idtfg\prophet_model-20251122145026.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:26.650 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine7
+2025-11-22 14:50:26.651 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine7
+2025-11-22 14:50:26.652 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - availability
+2025-11-22 14:50:28.472 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-availability: (0, 0, 1)
+2025-11-22 14:50:28.478 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - availability
+2025-11-22 14:50:28.479 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - availability
+2025-11-22 14:50:28.631 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=85928 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\4z078bs5.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\v28sjgn9.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelbuil9k9s\prophet_model-20251122145028.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:28.633 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:30.389 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 7.38, MAPE: 3323920246644523520.0%
+2025-11-22 14:50:30.390 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:30.544 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=91708 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vx4i_9qo.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\12qixfh2.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelkbnm4cqr\prophet_model-20251122145030.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:30.546 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine7
+2025-11-22 14:50:30.547 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - mtbf
+2025-11-22 14:50:31.312 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-mtbf: (1, 0, 0)
+2025-11-22 14:50:31.318 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - mtbf
+2025-11-22 14:50:31.319 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - mtbf
+2025-11-22 14:50:31.450 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=1346 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kljsdets.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\z6b_voup.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelsrp6r8dd\prophet_model-20251122145031.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:31.452 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:32.450 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 292.14, MAPE: 39877535760245424128.0%
+2025-11-22 14:50:32.452 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:32.582 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=59102 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\mafbwtsy.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\n7p4yoxd.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelcc7al899\prophet_model-20251122145032.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:32.584 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine7
+2025-11-22 14:50:32.585 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine7 - mttr
+2025-11-22 14:50:33.308 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine7-mttr: (0, 0, 0)
+2025-11-22 14:50:33.314 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine7 - mttr
+2025-11-22 14:50:33.315 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine7 - mttr
+2025-11-22 14:50:33.419 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine7 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=18348 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ob6_9qww.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\funaygo0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelsl587wss\prophet_model-20251122145033.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:33.422 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:34.542 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 0.09, MAPE: 38612564001167592.0%
+2025-11-22 14:50:34.544 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:34.693 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=99064 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0z_my6fr.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\91igk_d9.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model07nrfykb\prophet_model-20251122145034.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:34.694 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine8
+2025-11-22 14:50:34.696 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine8
+2025-11-22 14:50:34.696 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - availability
+2025-11-22 14:50:36.735 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-availability: (0, 1, 1)
+2025-11-22 14:50:36.739 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - availability
+2025-11-22 14:50:36.740 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - availability
+2025-11-22 14:50:36.837 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=71448 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0rbvsf3v.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\svyw6r5c.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model4i253z4q\prophet_model-20251122145036.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:36.838 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:39.217 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 34.76, MAPE: 15653079172398997504.0%
+2025-11-22 14:50:39.219 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:39.323 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=25868 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\7oso7l_u.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ddrtvjzr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelejnqiuua\prophet_model-20251122145039.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:39.323 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine8
+2025-11-22 14:50:39.324 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - mtbf
+2025-11-22 14:50:40.965 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-mtbf: (1, 0, 0)
+2025-11-22 14:50:40.978 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - mtbf
+2025-11-22 14:50:40.990 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - mtbf
+2025-11-22 14:50:41.118 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=51770 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\yowlvxkd.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\w8m9209t.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7879y2v7\prophet_model-20251122145041.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:41.119 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:43.150 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 436.68, MAPE: 682.6%
+2025-11-22 14:50:43.155 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:43.258 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=32544 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\_xudvrq8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\9g4_ksr7.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelvtuw_hxe\prophet_model-20251122145043.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:43.258 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine8
+2025-11-22 14:50:43.259 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine8 - mttr
+2025-11-22 14:50:43.880 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine8-mttr: (0, 0, 0)
+2025-11-22 14:50:43.886 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine8 - mttr
+2025-11-22 14:50:43.887 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine8 - mttr
+2025-11-22 14:50:43.999 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine8 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=13339 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gvpgwta6.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\e557s4qn.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelyjay1049\prophet_model-20251122145043.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:44.000 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:47.197 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 0.20, MAPE: 89500001713904592.0%
+2025-11-22 14:50:47.198 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:47.290 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=34731 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xyyysuq8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\eibxtn3d.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeluwrrpmdr\prophet_model-20251122145047.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:47.291 | INFO     | __main__:run_comprehensive_forecasting:9 - Processing machine: machine9
+2025-11-22 14:50:47.292 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting availability for machine9
+2025-11-22 14:50:47.292 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - availability
+2025-11-22 14:50:47.786 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-availability: (0, 0, 0)
+2025-11-22 14:50:47.791 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - availability
+2025-11-22 14:50:47.793 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - availability
+2025-11-22 14:50:47.884 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=36260 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ccpiwki4.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\d4zhgx84.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelyx8gw875\prophet_model-20251122145047.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:47.885 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:48.779 | INFO     | __main__:evaluate_arima_model:83 - ARIMA Evaluation - MAE: 16.64, MAPE: 16.7%
+2025-11-22 14:50:48.780 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:48.882 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=59637 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\x3x73gks.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\5uex7hc3.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modellm9ca8ce\prophet_model-20251122145048.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:48.884 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mtbf for machine9
+2025-11-22 14:50:48.885 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - mtbf
+2025-11-22 14:50:50.297 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-mtbf: (0, 0, 0)
+2025-11-22 14:50:50.303 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - mtbf
+2025-11-22 14:50:50.304 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - mtbf
+2025-11-22 14:50:50.394 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=7786 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\fr0eqrzm.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\2z1ohayo.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model9k8o_obo\prophet_model-20251122145050.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:50.395 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:50.402 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:50:50.403 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:50.503 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=85060 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\76fd9wmt.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\wlhfchin.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelghfwe0sh\prophet_model-20251122145050.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:50.504 | INFO     | __main__:run_comprehensive_forecasting:21 - Forecasting mttr for machine9
+2025-11-22 14:50:50.505 | INFO     | __main__:forecast_with_arima:3 - Training ARIMA model for machine9 - mttr
+2025-11-22 14:50:51.208 | INFO     | __main__:forecast_with_arima:23 - Best ARIMA model for machine9-mttr: (0, 0, 0)
+2025-11-22 14:50:51.211 | SUCCESS  | __main__:forecast_with_arima:49 - ARIMA forecast completed for machine9 - mttr
+2025-11-22 14:50:51.212 | INFO     | __main__:forecast_with_prophet:3 - Training Prophet model for machine9 - mttr
+2025-11-22 14:50:51.317 | ERROR    | __main__:forecast_with_prophet:54 - Prophet failed for machine9 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=97567 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\435ycb4i.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\34ogqy83.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7b23w2d1\prophet_model-20251122145051.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:51.318 | INFO     | __main__:evaluate_arima_model:58 - Performing ARIMA model evaluation...
+2025-11-22 14:50:51.326 | ERROR    | __main__:evaluate_arima_model:87 - ARIMA evaluation failed: zero-size array to reduction operation maximum which has no identity
+2025-11-22 14:50:51.327 | INFO     | __main__:evaluate_prophet_model:59 - Performing Prophet model evaluation...
+2025-11-22 14:50:51.440 | ERROR    | __main__:evaluate_prophet_model:102 - Prophet evaluation failed: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=38331 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\vj4g1j_v.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0yuuku0c.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelfm9evf1n\prophet_model-20251122145051.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:50:51.441 | SUCCESS  | __main__:run_comprehensive_forecasting:47 - Comprehensive forecasting completed
+2025-11-22 14:51:02.597 | INFO     | __main__:select_best_models:3 - Selecting best models based on evaluation metrics...
+2025-11-22 14:51:16.239 | INFO     | __main__:create_forecast_visualizations:3 - Creating forecast visualizations...
+2025-11-22 14:51:16.241 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine1
+2025-11-22 14:51:16.337 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine10
+2025-11-22 14:51:16.394 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine11
+2025-11-22 14:51:16.396 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine12
+2025-11-22 14:51:16.457 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine2
+2025-11-22 14:51:16.583 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine3
+2025-11-22 14:51:16.584 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine4
+2025-11-22 14:51:16.658 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine5
+2025-11-22 14:51:16.740 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine6
+2025-11-22 14:51:16.821 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine7
+2025-11-22 14:51:16.903 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine8
+2025-11-22 14:51:16.988 | INFO     | __main__:create_forecast_visualizations:6 - Creating visualizations for machine9
+2025-11-22 14:51:17.074 | SUCCESS  | __main__:create_forecast_visualizations:90 - Forecast visualizations created successfully
+2025-11-22 14:51:54.103 | INFO     | __main__:create_model_comparison_dashboard:3 - Creating model comparison dashboard...
+2025-11-22 14:51:54.246 | SUCCESS  | __main__:create_model_comparison_dashboard:69 - Model comparison dashboard created

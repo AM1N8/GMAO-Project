@@ -1,0 +1,135 @@
+% ============================================================
+% Chapitre 3 : Architecture Frontend
+% ============================================================
+
+\chapter{Architecture Frontend}
+\label{chap:frontend}
+
+\section{Vue d'Ensemble}
+
+Le frontend de ProAct est développé avec \textbf{Next.js 14} utilisant le nouvel \textbf{App Router}, basé sur le boilerplate \textbf{Makerkit SaaS Kit Lite}. Cette architecture moderne permet le rendu côté serveur (SSR), la génération statique (SSG) et les Server Components de React.
+
+\begin{techbox}[Caractéristiques Techniques]
+\begin{itemize}
+    \item \textbf{Framework} : Next.js 14.x avec App Router
+    \item \textbf{UI Library} : React 18.x
+    \item \textbf{Langage} : TypeScript (strict mode)
+    \item \textbf{Styling} : Tailwind CSS v3
+    \item \textbf{Composants} : shadcn/ui + Radix UI
+    \item \textbf{État} : React Query (TanStack Query)
+    \item \textbf{Formulaires} : React Hook Form + Zod
+\end{itemize}
+\end{techbox}
+
+\section{Structure du Projet}
+
+\subsection{Organisation des Dossiers}
+
+Le projet suit une structure monorepo avec \file{apps/web/} contenant l'application principale. Les dossiers clés sont :
+
+\begin{itemize}
+    \item \file{app/} : Pages et layouts (App Router)
+    \item \file{app/(marketing)/} : Pages publiques (landing, pricing)
+    \item \file{app/auth/} : Authentification (login, signup, callback)
+    \item \file{app/home/} : Dashboard protégé avec tous les modules GMAO
+    \item \file{components/} : Composants réutilisables
+    \item \file{lib/} : Utilitaires, client API, hooks personnalisés
+\end{itemize}
+
+\subsection{Pages du Dashboard}
+
+Le dashboard (\file{app/home/}) contient les modules fonctionnels :
+
+\begin{table}[H]
+\centering
+\caption{Structure des pages dashboard}
+\label{tab:pages-dashboard}
+\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Dossier} & \textbf{Fonctionnalité} \\
+\midrule
+\file{equipment/} & Gestion des équipements \\
+\file{interventions/} & Ordres de travail \\
+\file{spare-parts/} & Inventaire pièces de rechange \\
+\file{technicians/} & Gestion des techniciens \\
+\file{kpi/} & Dashboard KPIs avec graphiques \\
+\file{amdec/} & Analyse AMDEC et RPN \\
+\file{assistant/} & Interface chat RAG \\
+\file{copilot/} & Assistant Copilot \\
+\file{ocr/} & Upload et extraction OCR \\
+\file{knowledge-base/} & Base de Connaissances (Docs) \\
+\file{priority-training/} & Priorisation Formations IA \\
+\file{ai-forecast/} & Prédictions maintenance \\
+\file{import-export/} & Import/Export CSV \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Système de Layout}
+
+\subsection{Layout Principal}
+
+Le fichier \file{app/home/layout.tsx} définit le layout du dashboard avec support pour deux modes de navigation : \textbf{sidebar} (navigation latérale) et \textbf{header} (navigation horizontale). Le mode est déterminé par un cookie utilisateur.
+
+\subsection{Composants de Navigation}
+
+\begin{itemize}
+    \item \textbf{HomeSidebar} : Navigation latérale avec icônes et labels
+    \item \textbf{HomeMenuNavigation} : Navigation horizontale (mode header)
+    \item \textbf{HomeMobileNavigation} : Menu hamburger pour mobile
+    \item \textbf{GuidanceWidget} : Widget d'aide IA flottant
+\end{itemize}
+
+\section{Client API GMAO}
+
+Le fichier \file{lib/gmao-api.ts} centralise toutes les communications avec le backend. La classe \tech{GmaoApiClient} fournit :
+
+\begin{itemize}
+    \item Gestion automatique des tokens JWT via Supabase
+    \item Méthodes typées pour chaque entité (Equipment, Intervention, etc.)
+    \item Gestion des erreurs avec types personnalisés
+    \item Support des paramètres de requête (pagination, filtres)
+\end{itemize}
+
+\begin{conceptbox}[Pattern Singleton]
+Le client API est exporté comme instance globale \tech{gmaoApi} pour assurer une gestion cohérente des tokens d'authentification à travers l'application.
+\end{conceptbox}
+
+\section{Composants UI Réutilisables}
+
+\subsection{Data Tables}
+
+Les tableaux de données utilisent \textbf{TanStack Table} avec les fonctionnalités suivantes :
+
+\begin{itemize}
+    \item Tri multi-colonnes avec indicateurs visuels (flèches asc/desc)
+    \item Pagination côté client configurable
+    \item Filtrage par colonnes avec autocomplétion
+    \item Sparklines intégrés pour visualisation rapide des tendances
+    \item Actions contextuelles (édition, suppression, détails)
+\end{itemize}
+
+\subsection{Formulaires}
+
+Les formulaires sont construits avec \textbf{React Hook Form} pour la gestion d'état et \textbf{Zod} pour la validation. Chaque schéma de validation définit les contraintes qui génèrent automatiquement les messages d'erreur.
+
+\subsection{Graphiques}
+
+Les visualisations sont réalisées avec \textbf{Recharts} : BarChart, LineChart, PieChart, et AreaChart.
+
+\section{Gestion des Thèmes}
+
+Le système supporte les modes clair et sombre via l'attribut \tech{data-theme}. La préférence utilisateur est persistée dans un cookie.
+
+\section{Optimisations de Performance}
+
+\begin{infobox}[Optimisations Implémentées]
+\begin{itemize}
+    \item \textbf{Server Components} : Réduction du bundle JavaScript client
+    \item \textbf{Streaming SSR} : Affichage progressif des composants
+    \item \textbf{Image Optimization} : Next/Image avec lazy loading
+    \item \textbf{Code Splitting} : Routes dynamiques à la demande
+    \item \textbf{React Query Caching} : Mise en cache des requêtes API
+\end{itemize}
+\end{infobox}

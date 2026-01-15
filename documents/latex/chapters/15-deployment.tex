@@ -1,0 +1,98 @@
+% ============================================================
+% Chapitre 15 : Déploiement
+% ============================================================
+
+\chapter{Déploiement}
+\label{chap:deployment}
+
+\section{Vue d'Ensemble}
+
+\begin{table}[H]
+\centering
+\caption{Options de déploiement}
+\label{tab:deployment-options}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Config} & \textbf{Usage} & \textbf{Caractéristiques} \\
+\midrule
+Dev local & Dev/Test & Docker Compose, SQLite, hot-reload \\
+Staging & Pré-prod & Docker, PostgreSQL, Supabase test \\
+Production & Live & K8s/Docker, Supabase prod, CDN \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Déploiement Local}
+
+\subsection{Prérequis}
+
+Docker Desktop 4.x+, Node.js 18.x+/pnpm, Python 3.11+, Git.
+
+\subsection{Services Docker Compose}
+
+\begin{itemize}
+    \item \textbf{api} : Backend FastAPI (port 8000)
+    \item \textbf{ollama} : Serveur LLM (port 11434)
+    \item \textbf{redis} : Cache (port 6379)
+\end{itemize}
+
+\subsection{Lancement}
+
+Backend : \tech{docker-compose up -d} depuis \file{backend/}. Modèles : \tech{ollama pull llama3.2:3b}. Frontend : \tech{pnpm install} puis \tech{pnpm run dev}.
+
+\section{Configuration Supabase}
+
+Variables frontend (.env.local) : NEXT\_PUBLIC\_SUPABASE\_URL, NEXT\_PUBLIC\_SUPABASE\_ANON\_KEY, NEXT\_PUBLIC\_API\_BASE\_URL.
+
+Variables backend (.env) : DATABASE\_URL, SUPABASE\_JWT\_SECRET, OLLAMA\_BASE\_URL, REDIS\_HOST.
+
+\section{Déploiement Production}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=1.2cm and 1.5cm]
+    \node[component, fill=warning!20, minimum width=5cm] (cdn) {CDN (Vercel/Cloudflare)};
+    \node[component, below=of cdn, fill=primary!15, minimum width=3cm] (frontend) {Frontend (Vercel)};
+    \node[component, below=of frontend, fill=secondary!15, minimum width=3cm] (backend) {Backend (Railway)};
+    \node[database, below left=1.2cm and 0.5cm of backend, minimum width=1.5cm] (supabase) {Supabase};
+    \node[database, below right=1.2cm and 0.5cm of backend, minimum width=1.5cm] (redis) {Redis};
+    
+    \draw[arrow] (cdn) -- (frontend);
+    \draw[arrow] (frontend) -- (backend);
+    \draw[arrow] (backend) -- (supabase);
+    \draw[arrow] (backend) -- (redis);
+\end{tikzpicture}
+\caption{Architecture production}
+\label{fig:prod-architecture}
+\end{figure}
+
+\section{Migrations Alembic}
+
+\tech{alembic revision --autogenerate -m "desc"} : créer migration. \tech{alembic upgrade head} : appliquer. \tech{alembic downgrade -1} : rollback.
+
+\section{Checklist Déploiement}
+
+\begin{table}[H]
+\centering
+\caption{Checklist pré-déploiement}
+\label{tab:deploy-checklist}
+\small
+\begin{tabularx}{\textwidth}{@{}X c c@{}}
+\toprule
+\textbf{Tâche} & \textbf{Dev} & \textbf{Prod} \\
+\midrule
+Variables d'environnement & \checkmark & \checkmark \\
+Base de données migrée & \checkmark & \checkmark \\
+Modèles Ollama téléchargés & \checkmark & \checkmark \\
+CORS configuré & -- & \checkmark \\
+HTTPS activé & -- & \checkmark \\
+Monitoring configuré & -- & \checkmark \\
+Backup automatique & -- & \checkmark \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{warningbox}[Important]
+Tester en staging, vérifier sécurité, configurer backups et monitoring avant production.
+\end{warningbox}

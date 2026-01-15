@@ -1,0 +1,130 @@
+% ============================================================
+% Chapitre 6 : Modèle de Données
+% ============================================================
+
+\chapter{Modèle de Données}
+\label{chap:database}
+
+\section{Vue d'Ensemble}
+
+Le modèle de données de ProAct est implémenté avec \textbf{SQLAlchemy ORM} et conçu pour capturer l'ensemble des entités et relations d'un système GMAO complet. La base de données supporte PostgreSQL (production) et SQLite (développement).
+
+\section{Schéma Entités-Relations}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=1.5cm and 2.5cm,
+    entity/.style={
+        rectangle,
+        draw=primary,
+        fill=primary!10,
+        minimum width=2.5cm,
+        minimum height=0.8cm,
+        font=\small\bfseries
+    }
+]
+    % Main entities
+    \node[entity] (equipment) {Equipment};
+    \node[entity, right=2.5cm of equipment] (intervention) {Intervention};
+    \node[entity, below=1.2cm of equipment] (technician) {Technician};
+    \node[entity, below=1.2cm of intervention] (sparepart) {SparePart};
+    
+    % Secondary entities
+    \node[entity, above=1cm of equipment, fill=warning!10, draw=warning, minimum width=2cm, font=\footnotesize\bfseries] (failuremode) {FailureMode};
+    \node[entity, right=1cm of failuremode, fill=warning!10, draw=warning, minimum width=2cm, font=\footnotesize\bfseries] (rpn) {RPNAnalysis};
+    
+    % Relationships
+    \draw[arrow] (equipment) -- node[above, font=\footnotesize] {1:N} (intervention);
+    \draw[arrow] (equipment) -- node[left, font=\footnotesize] {1:N} (failuremode);
+    \draw[arrow] (failuremode) -- node[above, font=\footnotesize] {1:N} (rpn);
+    \draw[arrow] (intervention.south) -- ++(0,-0.4) -| ([xshift=-2mm]technician.east);
+    \draw[arrow] (intervention.south) -- ++(0,-0.4) -| ([xshift= 2mm]sparepart.west);
+\end{tikzpicture}
+\caption{Diagramme entités-relations}
+\label{fig:er-diagram}
+\end{figure}
+
+\section{Entités Principales}
+
+\subsection{Equipment}
+
+L'entité \textbf{Equipment} représente les actifs physiques à maintenir.
+
+\begin{table}[H]
+\centering
+\caption{Attributs de l'entité Equipment}
+\label{tab:equipment-attrs}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Attribut} & \textbf{Type} & \textbf{Description} \\
+\midrule
+id & Integer (PK) & Identifiant unique \\
+designation & String(200) & Nom de l'équipement \\
+type & String(100) & Type ou catégorie \\
+location & String(200) & Emplacement physique \\
+status & Enum & Active, Inactive, Maintenance \\
+acquisition\_date & Date & Date d'acquisition \\
+manufacturer & String(100) & Fabricant \\
+serial\_number & String(100) & Numéro de série (unique) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Intervention}
+
+L'entité \textbf{Intervention} capture les ordres de travail :
+
+\begin{itemize}
+    \item \textbf{Classification} : Type de panne, catégorie, cause
+    \item \textbf{Timing} : Date demande, réalisation, durée
+    \item \textbf{Coûts} : Coût matériel, main d'œuvre, total
+    \item \textbf{Statut} : Open, In Progress, Completed, Closed
+\end{itemize}
+
+\subsection{SparePart}
+
+Gère l'inventaire des pièces de rechange : désignation, référence unique, coût unitaire, stock actuel, seuil d'alerte, fournisseur.
+
+\subsection{Technician}
+
+Représente le personnel : nom, email unique, spécialité, taux horaire, statut (Active, Inactive, On Leave).
+
+\section{Tables d'Association}
+
+\begin{itemize}
+    \item \textbf{InterventionPart} : N:M interventions-pièces avec quantité
+    \item \textbf{TechnicianAssignment} : N:M interventions-techniciens avec heures
+    \item \textbf{TechnicianSkill} : N:M techniciens-compétences avec niveau
+\end{itemize}
+
+\section{Modèles AMDEC}
+
+\begin{itemize}
+    \item \textbf{FailureMode} : Mode de défaillance avec effet et cause
+    \item \textbf{RPNAnalysis} : Scores Gravité, Occurrence, Détection (1-10)
+\end{itemize}
+
+\section{Modèles RAG}
+
+\begin{itemize}
+    \item \textbf{RAGDocument} : Métadonnées des documents indexés
+    \item \textbf{RAGDocumentChunk} : Segments de texte pour recherche
+    \item \textbf{RAGQuery} : Historique des requêtes
+\end{itemize}
+
+\section{Schémas Pydantic}
+
+Les schémas Pydantic assurent la validation :
+
+\begin{itemize}
+    \item \textbf{*Base} : Attributs communs
+    \item \textbf{*Create} : Schéma de création
+    \item \textbf{*Update} : Schéma mise à jour (optionnels)
+    \item \textbf{*Response} : Réponse avec id et timestamps
+\end{itemize}
+
+\begin{infobox}[Validation Automatique]
+Pydantic v2 génère la validation des types, les contraintes de champs, et la documentation OpenAPI automatiquement.
+\end{infobox}

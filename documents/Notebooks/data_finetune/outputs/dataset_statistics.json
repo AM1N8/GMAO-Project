@@ -1,0 +1,22 @@
+{
+  "total_samples": 7036,
+  "by_type": {
+    "qa": 2836,
+    "instructions": 800,
+    "classifications": 500,
+    "summarizations": 400,
+    "predictions": 400,
+    "diagnostics": 400,
+    "comparisons": 300,
+    "timeseries": 300,
+    "multidoc": 500,
+    "conversations": 250,
+    "validations": 200,
+    "documentations": 150
+  },
+  "avg_input_length": 39,
+  "avg_output_length": 213,
+  "generation_date": "2025-12-26T01:30:55.525085",
+  "max_input_length": 102,
+  "max_output_length": 783
+}

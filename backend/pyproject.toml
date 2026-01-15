@@ -1,0 +1,62 @@
+[project]
+name = "gmao-backend"
+version = "1.0.0"
+description = "GMAO (Maintenance Management) FastAPI Backend"
+authors = [
+    {name = "GMAO Team", email = "team@gmao.local"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "python-multipart==0.0.6",
+    "sqlalchemy==2.0.23",
+    "psycopg2-binary==2.9.9",
+    "alembic==1.12.1",
+    "pandas==2.1.3",
+    "numpy==1.26.2",
+    "chardet==5.2.0",
+    "python-dateutil==2.8.2",
+    "openpyxl==3.1.2",
+    "reportlab==4.0.7",
+    "matplotlib==3.8.2",
+    "Pillow==10.1.0",
+    "pydantic==2.5.0",
+    "pydantic-settings==2.1.0",
+    "email-validator==2.1.0",
+    "python-dotenv==1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.4.3",
+    "pytest-asyncio==0.21.1",
+    "httpx==0.25.2",
+    "black==23.11.0",
+    "flake8==6.1.0",
+    "mypy==1.7.1",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools-scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+asyncio_mode = "auto"

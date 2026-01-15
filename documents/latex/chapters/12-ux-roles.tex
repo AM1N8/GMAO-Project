@@ -1,0 +1,98 @@
+% ============================================================
+% Chapitre 12 : UX et Rôles Utilisateurs
+% ============================================================
+
+\chapter{UX et Rôles Utilisateurs}
+\label{chap:ux-roles}
+
+\section{Principes de Design}
+
+L'interface est conçue selon les principes de clarté, efficacité, cohérence, adaptabilité et accessibilité (WCAG niveau AA).
+
+\section{Parcours Utilisateurs}
+
+\subsection{Administrateur}
+
+Configuration système, gestion utilisateurs, import/export, analyse KPIs globaux, configuration AMDEC.
+
+\subsection{Superviseur}
+
+Planification interventions, assignation techniciens, validation rapports, suivi KPIs équipe, gestion stock.
+
+\subsection{Technicien}
+
+Consultation interventions assignées, réalisation et documentation, soumission rapports, assistant IA.
+
+\subsection{Viewer}
+
+Consultation tableaux de bord, visualisation KPIs, historique interventions, RAG en lecture seule.
+
+\section{Structure de Navigation}
+
+\begin{table}[H]
+\centering
+\caption{Menu de navigation}
+\label{tab:navigation-menu}
+\small
+\begin{tabularx}{\textwidth}{@{}X l c c c c@{}}
+\toprule
+\textbf{Section} & \textbf{Icône} & \textbf{Adm} & \textbf{Sup} & \textbf{Tech} & \textbf{View} \\
+\midrule
+Dashboard & Home & \checkmark & \checkmark & \checkmark & \checkmark \\
+Équipements & Settings & \checkmark & \checkmark & \checkmark & \checkmark \\
+Interventions & Wrench & \checkmark & \checkmark & \checkmark & \checkmark \\
+Pièces & Package & \checkmark & \checkmark & -- & -- \\
+Techniciens & Users & \checkmark & \checkmark & -- & -- \\
+KPI & BarChart & \checkmark & \checkmark & \checkmark & \checkmark \\
+AMDEC & Alert & \checkmark & \checkmark & -- & -- \\
+\midrule
+\textit{IA \& Analytics} & & & & & \\
+RAG & Message & \checkmark & \checkmark & \checkmark & \checkmark \\
+Copilot & Bot & \checkmark & \checkmark & \checkmark & \checkmark \\
+OCR & Scan & \checkmark & \checkmark & -- & -- \\
+Forecast & Trend & \checkmark & \checkmark & -- & -- \\
+\midrule
+Import/Export & Upload & \checkmark & \checkmark & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Composants d'Interface}
+
+\subsection{Dashboard}
+
+Cards KPI avec tendances, graphiques distribution pannes, alertes stock bas, actions rapides.
+
+\subsection{Tableaux}
+
+Tri par colonnes, pagination configurable, filtrage multi-critères, recherche globale, export CSV, actions inline.
+
+\subsection{Formulaires}
+
+Validation temps réel, autocomplétion, confirmation actions destructives.
+
+\section{Responsive Design}
+
+\begin{table}[H]
+\centering
+\caption{Breakpoints}
+\label{tab:breakpoints}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Device} & \textbf{Largeur} & \textbf{Adaptation} \\
+\midrule
+Mobile & < 640px & Menu hamburger, cards empilées \\
+Tablette & 640-1024px & Sidebar réduite, grille 2 colonnes \\
+Desktop & > 1024px & Sidebar complète, grille 3+ colonnes \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Thèmes et Accessibilité}
+
+Modes clair/sombre via \tech{data-theme}. Conformité WCAG : contraste 4.5:1, navigation clavier, labels ARIA, skip links.
+
+\section{Widget d'Aide IA}
+
+Le \textbf{GuidanceWidget} est un assistant flottant offrant des suggestions contextuelles et intégration Copilot.

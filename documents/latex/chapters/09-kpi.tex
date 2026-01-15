@@ -1,0 +1,147 @@
+% ============================================================
+% Chapitre 9 : KPI et Analytics
+% ============================================================
+
+\chapter{KPI et Analytics}
+\label{chap:kpi}
+
+\section{Introduction aux KPIs de Maintenance}
+
+Les \textbf{Key Performance Indicators} (KPIs) sont des métriques essentielles pour évaluer l'efficacité des opérations de maintenance. ProAct implémente les indicateurs standards de l'industrie, calculés automatiquement à partir des données d'intervention.
+
+\section{Indicateurs Principaux}
+
+\subsection{MTBF -- Mean Time Between Failures}
+
+\begin{conceptbox}[Définition MTBF]
+Le \kpi{MTBF} (Temps Moyen Entre Pannes) mesure la fiabilité d'un équipement. Plus le MTBF est élevé, plus l'équipement est fiable.
+
+\textbf{Formule :}
+\begin{equation}
+MTBF = \frac{\sum_{i=1}^{n-1} (t_{i+1} - t_i)}{n - 1}
+\end{equation}
+
+Où $t_i$ représente la date de la $i$-ème panne et $n$ le nombre total de pannes.
+\end{conceptbox}
+
+Le calcul du MTBF dans ProAct :
+\begin{enumerate}
+    \item Récupère les interventions correctives triées par date
+    \item Calcule les intervalles entre pannes consécutives (en heures)
+    \item Retourne la moyenne des intervalles
+\end{enumerate}
+
+\textbf{Conditions} : Nécessite au minimum 2 pannes pour calculer un intervalle. Retourne \tech{null} si données insuffisantes.
+
+\subsection{MTTR -- Mean Time To Repair}
+
+\begin{conceptbox}[Définition MTTR]
+Le \kpi{MTTR} (Temps Moyen de Réparation) mesure l'efficacité des réparations. Un MTTR bas indique des réparations rapides.
+
+\textbf{Formule :}
+\begin{equation}
+MTTR = \frac{\sum_{i=1}^{n} D_i}{n}
+\end{equation}
+
+Où $D_i$ représente la durée d'indisponibilité de la $i$-ème intervention.
+\end{conceptbox}
+
+Le MTTR utilise le champ \tech{duree\_indisponibilite} des interventions, exprimé en heures.
+
+\subsection{Disponibilité}
+
+\begin{conceptbox}[Définition Disponibilité]
+La \kpi{Disponibilité} mesure le pourcentage de temps où l'équipement est opérationnel.
+
+\textbf{Formule :}
+\begin{equation}
+A = \frac{MTBF}{MTBF + MTTR} \times 100 = \frac{T_{op} - T_{down}}{T_{op}} \times 100
+\end{equation}
+\end{conceptbox}
+
+Le calcul prend en compte :
+\begin{itemize}
+    \item La période d'analyse (start\_date à end\_date)
+    \item Les heures opérationnelles par jour (par défaut 24h)
+    \item Les jours opérationnels par semaine (par défaut 7)
+    \item Le cumul des durées d'indisponibilité
+\end{itemize}
+
+La valeur est bornée entre 0\% et 100\%.
+
+\section{Dashboard KPIs}
+
+L'endpoint \api{GET /api/kpi/dashboard} retourne un ensemble consolidé de métriques en un seul appel :
+
+\begin{table}[H]
+\centering
+\caption{Structure du Dashboard KPIs}
+\label{tab:dashboard-kpis}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Catégorie} & \textbf{Métriques} \\
+\midrule
+Core Metrics & MTBF, MTTR, Disponibilité \\
+Counts & Total interventions, équipements actifs \\
+Costs & Coût total, matériel, main d'œuvre \\
+Distributions & Par type de panne, par statut \\
+Trends & Données mensuelles pour graphiques \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Paramètres de Filtrage}
+
+\begin{itemize}
+    \item \textbf{start\_date / end\_date} : Période d'analyse
+    \item \textbf{equipment\_id} : Filtrer par équipement spécifique
+    \item \textbf{operational\_hours\_per\_day} : Heures de fonctionnement (1-24)
+\end{itemize}
+
+\section{Distributions et Tendances}
+
+\subsection{Distribution des Pannes}
+
+L'endpoint \api{GET /api/kpi/failure-distribution} retourne le comptage par type de panne avec pourcentages. Permet d'identifier les types de pannes les plus fréquents pour prioriser les actions préventives.
+
+\subsection{Répartition des Coûts}
+
+L'endpoint \api{GET /api/kpi/cost-breakdown} fournit :
+\begin{itemize}
+    \item Coût matériel total et pourcentage
+    \item Coût main d'œuvre total et pourcentage
+    \item Coût total de maintenance
+\end{itemize}
+
+\section{Visualisation Frontend}
+
+Le dashboard KPI du frontend affiche :
+
+\begin{itemize}
+    \item \textbf{Cards métriques} : MTBF, MTTR, Disponibilité avec indicateurs de tendance
+    \item \textbf{Graphique en barres} : Distribution des types de pannes
+    \item \textbf{Graphique en ligne} : Évolution temporelle des interventions
+    \item \textbf{Pie chart} : Répartition des coûts (matériel vs MO)
+    \item \textbf{Tableau récapitulatif} : KPIs par équipement
+\end{itemize}
+
+\section{Interprétation des KPIs}
+
+\begin{table}[H]
+\centering
+\caption{Interprétation des KPIs}
+\label{tab:kpi-interpretation}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{KPI} & \textbf{Bon} & \textbf{Acceptable} & \textbf{Critique} \\
+\midrule
+MTBF & > 500h & 200-500h & < 200h \\
+MTTR & < 2h & 2-8h & > 8h \\
+Disponibilité & > 95\% & 85-95\% & < 85\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{infobox}[Bonnes Pratiques]
+Les seuils ci-dessus sont indicatifs. Il est recommandé de les adapter selon le type d'industrie, la criticité des équipements, et les objectifs de performance définis.
+\end{infobox}

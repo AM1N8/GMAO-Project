@@ -1,0 +1,27 @@
+
+====================
+Analyzing data/AMDEC_clean.csv
+====================
+Columns: ['Type de panne', 'Durée arrêt (h)', 'Résumé intervention', 'Date intervention', 'Désignation', 'Date demande', 'Cause', 'Coût matériel', 'Organe', '[Pièce].Désignation', '[Pièce].Référence', '[Pièce].Quantité', '[Pièce].Prix total']
+Shape: (1942, 13)
+First row:
+{'Type de panne': 'Hydraulique', 'Durée arrêt (h)': '1,08333', 'Résumé intervention': "Verification de la pompe du lubrifiant / demontage de la pompe et nettoyage du filtre d'huile / nettoyage de la pompe et remplissage du reservoir d'huile / amorcage de la pompe du lubrifiant ", 'Date intervention': '29/03/2025', 'Désignation': 'machine1', 'Date demande': '29/03/2025 10:05', 'Cause': 'PROBLEME DE LUBRIFICATION', 'Coût matériel': '0', 'Organe': '05-Unité de lubrification ', '[Pièce].Désignation': nan, '[Pièce].Référence': nan, '[Pièce].Quantité': nan, '[Pièce].Prix total': nan}
+
+Checking RPN columns:
+Potential RPN columns found: []
+
+====================
+Analyzing data/GMAO_integrator_clean.csv
+====================
+Columns: ['Type de panne', 'Durée arrêt (h)', 'Résultat', 'Date intervention', 'Désignation', 'Coût matériel', '[Pièce].Désignation', '[Pièce].Référence', '[Pièce].Quantité']
+Shape: (9341, 9)
+First row:
+{'Type de panne': 'Mécanique', 'Durée arrêt (h)': '0,41667', 'Résultat': nan, 'Date intervention': '25/04/2025', 'Désignation': 'machine1', 'Coût matériel': '0', '[Pièce].Désignation': nan, '[Pièce].Référence': nan, '[Pièce].Quantité': nan}
+
+====================
+Analyzing data/Workload_clean.csv
+====================
+Columns: ['Type de panne', 'Durée arrêt (h)', 'Date intervention', 'Désignation', 'Catégorie de panne', "Nombre d'heures MO", 'Coût total intervention', '[MO interne].Nom', '[MO interne].Prénom', "[MO interne].Nombre d'heures"]
+Shape: (3169, 10)
+First row:
+{'Type de panne': 'Hydraulique', 'Durée arrêt (h)': '1,08333', 'Date intervention': '29/03/2025', 'Désignation': 'machine1', 'Catégorie de panne': 'Hydraulique', "Nombre d'heures MO": '1', 'Coût total intervention': '56', '[MO interne].Nom': 'tech', '[MO interne].Prénom': 'one', "[MO interne].Nombre d'heures": '1'}

@@ -1,0 +1,369 @@
+2025-11-22 14:54:17.629 | INFO     | __main__:<module>:22 - Starting Fixed ARIMA and Prophet Forecasting
+2025-11-22 14:54:31.221 | INFO     | __main__:prepare_fixed_time_series_data:3 - Preparing fixed time series data...
+2025-11-22 14:54:31.296 | INFO     | __main__:prepare_fixed_time_series_data:42 - Prepared time series data for 11 valid machines
+2025-11-22 14:55:43.072 | INFO     | __main__:robust_forecasting_pipeline:3 - Starting robust forecasting pipeline...
+2025-11-22 14:55:43.073 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine1
+2025-11-22 14:55:43.075 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine1
+2025-11-22 14:55:55.715 | INFO     | __main__:prepare_fixed_time_series_data:3 - Preparing fixed time series data...
+2025-11-22 14:55:55.767 | INFO     | __main__:prepare_fixed_time_series_data:42 - Prepared time series data for 11 valid machines
+2025-11-22 14:56:08.762 | INFO     | __main__:robust_forecasting_pipeline:3 - Starting robust forecasting pipeline...
+2025-11-22 14:56:08.764 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine1
+2025-11-22 14:56:08.766 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine1
+2025-11-22 14:56:08.767 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine1 - availability
+2025-11-22 14:56:09.382 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine1-availability: (0, 0, 1)
+2025-11-22 14:56:09.386 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine1 - availability
+2025-11-22 14:56:09.387 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine1 - availability
+2025-11-22 14:56:09.490 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine1 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=91541 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cjm4vy70.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jzu01ej0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelktgkrtzv\prophet_model-20251122145609.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:09.499 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:09.501 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.98
+2025-11-22 14:56:09.502 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine1
+2025-11-22 14:56:09.502 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine1 - mtbf
+2025-11-22 14:56:10.089 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine1-mtbf: (2, 0, 0)
+2025-11-22 14:56:10.106 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine1 - mtbf
+2025-11-22 14:56:10.106 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine1 - mtbf
+2025-11-22 14:56:10.215 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine1 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=77496 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jfcq1xn8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\hjkmeuht.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelw9kuitvu\prophet_model-20251122145610.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:10.216 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:10.218 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.78
+2025-11-22 14:56:10.218 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine1
+2025-11-22 14:56:10.219 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine1 - mttr
+2025-11-22 14:56:10.815 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine1-mttr: (0, 0, 1)
+2025-11-22 14:56:10.820 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine1 - mttr
+2025-11-22 14:56:10.821 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine1 - mttr
+2025-11-22 14:56:10.932 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine1 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=96897 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jr_b_re0.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cpnpiuy9.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelxcaedipt\prophet_model-20251122145610.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:10.934 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:10.935 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.51
+2025-11-22 14:56:10.936 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine10
+2025-11-22 14:56:10.937 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine10
+2025-11-22 14:56:10.938 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine10 - availability
+2025-11-22 14:56:10.949 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine10-availability: (0, 0, 0)
+2025-11-22 14:56:10.955 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine10 - availability
+2025-11-22 14:56:10.956 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine10 - availability
+2025-11-22 14:56:11.055 | SUCCESS  | __main__:fixed_forecast_with_prophet:60 - Prophet forecast completed for machine10 - availability
+2025-11-22 14:56:11.057 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:11.058 | WARNING  | __main__:simple_evaluate_model:6 - Insufficient data for proper evaluation
+2025-11-22 14:56:11.060 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine10
+2025-11-22 14:56:11.061 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine10 - mtbf
+2025-11-22 14:56:11.607 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine10-mtbf: (0, 0, 0)
+2025-11-22 14:56:11.611 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine10 - mtbf
+2025-11-22 14:56:11.612 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine10 - mtbf
+2025-11-22 14:56:11.702 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine10 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=96807 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\13xu1k49.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\xxr4v5kh.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeljfdw7m0l\prophet_model-20251122145611.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:11.704 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:11.705 | WARNING  | __main__:simple_evaluate_model:6 - Insufficient data for proper evaluation
+2025-11-22 14:56:11.706 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine10
+2025-11-22 14:56:11.707 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine10 - mttr
+2025-11-22 14:56:11.719 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine10-mttr: (0, 0, 0)
+2025-11-22 14:56:11.723 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine10 - mttr
+2025-11-22 14:56:11.724 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine10 - mttr
+2025-11-22 14:56:11.833 | SUCCESS  | __main__:fixed_forecast_with_prophet:60 - Prophet forecast completed for machine10 - mttr
+2025-11-22 14:56:11.834 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:11.836 | WARNING  | __main__:simple_evaluate_model:6 - Insufficient data for proper evaluation
+2025-11-22 14:56:11.836 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine12
+2025-11-22 14:56:11.837 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine12
+2025-11-22 14:56:11.839 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine12 - availability
+2025-11-22 14:56:11.850 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine12-availability: (0, 0, 0)
+2025-11-22 14:56:11.854 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine12 - availability
+2025-11-22 14:56:11.855 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine12 - availability
+2025-11-22 14:56:11.965 | SUCCESS  | __main__:fixed_forecast_with_prophet:60 - Prophet forecast completed for machine12 - availability
+2025-11-22 14:56:11.967 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:11.969 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:11.970 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine12
+2025-11-22 14:56:11.971 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine12 - mtbf
+2025-11-22 14:56:12.400 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine12-mtbf: (0, 0, 1)
+2025-11-22 14:56:12.407 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine12 - mtbf
+2025-11-22 14:56:12.408 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine12 - mtbf
+2025-11-22 14:56:12.504 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine12 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=73873 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\0d7ghiyf.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\scqscchr.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelppgzumnl\prophet_model-20251122145612.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:12.505 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:12.506 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:12.507 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine12
+2025-11-22 14:56:12.509 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine12 - mttr
+2025-11-22 14:56:12.520 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine12-mttr: (0, 0, 0)
+2025-11-22 14:56:12.525 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine12 - mttr
+2025-11-22 14:56:12.527 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine12 - mttr
+2025-11-22 14:56:12.628 | SUCCESS  | __main__:fixed_forecast_with_prophet:60 - Prophet forecast completed for machine12 - mttr
+2025-11-22 14:56:12.628 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:12.629 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:12.630 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine2
+2025-11-22 14:56:12.631 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine2
+2025-11-22 14:56:12.631 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine2 - availability
+2025-11-22 14:56:13.579 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine2-availability: (1, 0, 1)
+2025-11-22 14:56:13.584 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine2 - availability
+2025-11-22 14:56:13.593 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine2 - availability
+2025-11-22 14:56:13.704 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine2 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=94061 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\_ddo7xp_.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\qs5c87r7.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelwx8vifgi\prophet_model-20251122145613.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:13.705 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:13.706 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.00
+2025-11-22 14:56:13.707 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine2
+2025-11-22 14:56:13.707 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine2 - mtbf
+2025-11-22 14:56:14.507 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine2-mtbf: (0, 0, 2)
+2025-11-22 14:56:14.512 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine2 - mtbf
+2025-11-22 14:56:14.513 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine2 - mtbf
+2025-11-22 14:56:14.623 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine2 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=58072 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\pgowqgv8.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\97nyq7j0.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelow2w7gsm\prophet_model-20251122145614.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:14.624 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:14.625 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.97
+2025-11-22 14:56:14.627 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine2
+2025-11-22 14:56:14.627 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine2 - mttr
+2025-11-22 14:56:15.083 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine2-mttr: (0, 1, 1)
+2025-11-22 14:56:15.087 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine2 - mttr
+2025-11-22 14:56:15.088 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine2 - mttr
+2025-11-22 14:56:15.179 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine2 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=1789 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\nbq1yrsb.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rxpbezys.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modely5en4d8g\prophet_model-20251122145615.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:15.181 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:15.183 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.00
+2025-11-22 14:56:15.185 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine3
+2025-11-22 14:56:15.185 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine3
+2025-11-22 14:56:15.186 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine3 - availability
+2025-11-22 14:56:15.422 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine3-availability: (0, 0, 0)
+2025-11-22 14:56:15.427 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine3 - availability
+2025-11-22 14:56:15.428 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine3 - availability
+2025-11-22 14:56:15.519 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine3 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=51415 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\_6e0kc0_.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\jq7zo2jw.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeljlvy479f\prophet_model-20251122145615.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:15.521 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:15.521 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:15.523 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine3
+2025-11-22 14:56:15.524 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine3 - mtbf
+2025-11-22 14:56:15.907 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine3-mtbf: (0, 1, 1)
+2025-11-22 14:56:15.911 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine3 - mtbf
+2025-11-22 14:56:15.912 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine3 - mtbf
+2025-11-22 14:56:16.005 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine3 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=78460 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\dxk_4bx1.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\4urij2yq.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model31h96itd\prophet_model-20251122145615.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:16.006 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:16.008 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.64
+2025-11-22 14:56:16.009 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine3
+2025-11-22 14:56:16.010 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine3 - mttr
+2025-11-22 14:56:16.227 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine3-mttr: (0, 0, 0)
+2025-11-22 14:56:16.234 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine3 - mttr
+2025-11-22 14:56:16.235 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine3 - mttr
+2025-11-22 14:56:16.339 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine3 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=12653 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\tz39g_2m.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\kvxr8g5b.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelrohbmh5k\prophet_model-20251122145616.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:16.341 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:16.344 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:16.345 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine4
+2025-11-22 14:56:16.347 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine4
+2025-11-22 14:56:16.348 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine4 - availability
+2025-11-22 14:56:16.953 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine4-availability: (0, 1, 1)
+2025-11-22 14:56:16.957 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine4 - availability
+2025-11-22 14:56:16.959 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine4 - availability
+2025-11-22 14:56:17.075 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine4 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=20812 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\btzuywox.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\v7yidmun.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modeltr_axxu2\prophet_model-20251122145617.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:17.076 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:17.079 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: -inf
+2025-11-22 14:56:17.081 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine4
+2025-11-22 14:56:17.082 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine4 - mtbf
+2025-11-22 14:56:17.712 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine4-mtbf: (0, 1, 1)
+2025-11-22 14:56:17.717 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine4 - mtbf
+2025-11-22 14:56:17.718 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine4 - mtbf
+2025-11-22 14:56:17.908 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine4 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=82151 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\es680e3t.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\iqx6jdml.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelsdimfqo9\prophet_model-20251122145617.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:17.909 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:17.912 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.70
+2025-11-22 14:56:17.913 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine4
+2025-11-22 14:56:17.916 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine4 - mttr
+2025-11-22 14:56:18.494 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine4-mttr: (0, 0, 0)
+2025-11-22 14:56:18.503 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine4 - mttr
+2025-11-22 14:56:18.505 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine4 - mttr
+2025-11-22 14:56:18.631 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine4 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=47680 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6_axo205.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\s1rl7f5p.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model49itvz4i\prophet_model-20251122145618.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:18.633 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:18.635 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: -inf
+2025-11-22 14:56:18.636 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine5
+2025-11-22 14:56:18.637 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine5
+2025-11-22 14:56:18.637 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine5 - availability
+2025-11-22 14:56:19.128 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine5-availability: (0, 1, 1)
+2025-11-22 14:56:19.132 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine5 - availability
+2025-11-22 14:56:19.133 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine5 - availability
+2025-11-22 14:56:19.223 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine5 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=21475 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ore1cnjw.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ka08fgka.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelpsowz4q_\prophet_model-20251122145619.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:19.225 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:19.226 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.62
+2025-11-22 14:56:19.227 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine5
+2025-11-22 14:56:19.227 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine5 - mtbf
+2025-11-22 14:56:19.588 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine5-mtbf: (0, 1, 1)
+2025-11-22 14:56:19.595 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine5 - mtbf
+2025-11-22 14:56:19.596 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine5 - mtbf
+2025-11-22 14:56:19.689 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine5 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=37117 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ddt8x0wq.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\va05ju12.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelc07gilvy\prophet_model-20251122145619.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:19.689 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:19.690 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.89
+2025-11-22 14:56:19.691 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine5
+2025-11-22 14:56:19.692 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine5 - mttr
+2025-11-22 14:56:20.229 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine5-mttr: (0, 1, 2)
+2025-11-22 14:56:20.234 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine5 - mttr
+2025-11-22 14:56:20.234 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine5 - mttr
+2025-11-22 14:56:20.330 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine5 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=97507 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\s63c5zqi.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rpva98gi.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7mud49os\prophet_model-20251122145620.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:20.331 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:20.333 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.28
+2025-11-22 14:56:20.334 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine6
+2025-11-22 14:56:20.336 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine6
+2025-11-22 14:56:20.337 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine6 - availability
+2025-11-22 14:56:20.533 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine6-availability: (0, 0, 0)
+2025-11-22 14:56:20.538 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine6 - availability
+2025-11-22 14:56:20.539 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine6 - availability
+2025-11-22 14:56:20.628 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine6 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=60549 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\tb5_fi8q.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\q64o0sji.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model8exajooj\prophet_model-20251122145620.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:20.629 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:20.631 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:20.632 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine6
+2025-11-22 14:56:20.632 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine6 - mtbf
+2025-11-22 14:56:20.842 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine6-mtbf: (0, 0, 0)
+2025-11-22 14:56:20.847 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine6 - mtbf
+2025-11-22 14:56:20.849 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine6 - mtbf
+2025-11-22 14:56:20.942 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine6 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=59564 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\htfihd26.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6x7d66rp.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelzr7ynxk6\prophet_model-20251122145620.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:20.943 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:20.944 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: -2.21
+2025-11-22 14:56:20.945 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine6
+2025-11-22 14:56:20.945 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine6 - mttr
+2025-11-22 14:56:21.139 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine6-mttr: (0, 0, 0)
+2025-11-22 14:56:21.153 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine6 - mttr
+2025-11-22 14:56:21.157 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine6 - mttr
+2025-11-22 14:56:21.336 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine6 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=81164 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\po5ix63r.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\nr09bj3a.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modela8ag7dr2\prophet_model-20251122145621.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:21.337 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:21.338 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:21.339 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine7
+2025-11-22 14:56:21.341 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine7
+2025-11-22 14:56:21.342 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine7 - availability
+2025-11-22 14:56:21.358 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine7-availability: (0, 0, 0)
+2025-11-22 14:56:21.365 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine7 - availability
+2025-11-22 14:56:21.366 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine7 - availability
+2025-11-22 14:56:21.524 | SUCCESS  | __main__:fixed_forecast_with_prophet:60 - Prophet forecast completed for machine7 - availability
+2025-11-22 14:56:21.526 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:21.530 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:21.533 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine7
+2025-11-22 14:56:21.534 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine7 - mtbf
+2025-11-22 14:56:22.151 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine7-mtbf: (1, 0, 0)
+2025-11-22 14:56:22.157 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine7 - mtbf
+2025-11-22 14:56:22.158 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine7 - mtbf
+2025-11-22 14:56:22.253 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine7 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=30806 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\6d31st2l.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\qmu5llk_.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7fw17vgb\prophet_model-20251122145622.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:22.254 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:22.255 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: -inf
+2025-11-22 14:56:22.256 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine7
+2025-11-22 14:56:22.257 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine7 - mttr
+2025-11-22 14:56:22.336 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine7-mttr: (0, 0, 0)
+2025-11-22 14:56:22.339 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine7 - mttr
+2025-11-22 14:56:22.340 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine7 - mttr
+2025-11-22 14:56:22.436 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine7 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=15221 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\ndzk_6op.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\cgfn1xt_.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelm4rvr9oe\prophet_model-20251122145622.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:22.439 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:22.440 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:22.443 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine8
+2025-11-22 14:56:22.444 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine8
+2025-11-22 14:56:22.444 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine8 - availability
+2025-11-22 14:56:23.091 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine8-availability: (0, 1, 1)
+2025-11-22 14:56:23.096 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine8 - availability
+2025-11-22 14:56:23.097 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine8 - availability
+2025-11-22 14:56:23.248 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine8 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=83820 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gyrj9afu.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\_d4un5ej.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelvhgeh774\prophet_model-20251122145623.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:23.249 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:23.251 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:23.253 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine8
+2025-11-22 14:56:23.254 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine8 - mtbf
+2025-11-22 14:56:23.707 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine8-mtbf: (0, 0, 0)
+2025-11-22 14:56:23.713 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine8 - mtbf
+2025-11-22 14:56:23.714 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine8 - mtbf
+2025-11-22 14:56:23.819 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine8 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=21776 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\477vcnme.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\di8t2okg.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelmyoyhx2x\prophet_model-20251122145623.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:23.821 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:23.823 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: 0.17
+2025-11-22 14:56:23.824 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine8
+2025-11-22 14:56:23.825 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine8 - mttr
+2025-11-22 14:56:24.162 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine8-mttr: (0, 0, 1)
+2025-11-22 14:56:24.167 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine8 - mttr
+2025-11-22 14:56:24.169 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine8 - mttr
+2025-11-22 14:56:24.260 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine8 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=73149 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\p19hfbz0.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\izdxlmm4.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model7kwd_8hl\prophet_model-20251122145624.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:24.262 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:24.263 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:24.263 | INFO     | __main__:robust_forecasting_pipeline:8 - Processing machine: machine9
+2025-11-22 14:56:24.265 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting availability for machine9
+2025-11-22 14:56:24.266 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine9 - availability
+2025-11-22 14:56:24.323 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine9-availability: (0, 0, 0)
+2025-11-22 14:56:24.328 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine9 - availability
+2025-11-22 14:56:24.329 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine9 - availability
+2025-11-22 14:56:24.421 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine9 - availability: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=10892 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gclmo74e.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\pwbv2903.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model80vxhn5_\prophet_model-20251122145624.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:24.422 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:24.424 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:24.425 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mtbf for machine9
+2025-11-22 14:56:24.425 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine9 - mtbf
+2025-11-22 14:56:24.905 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine9-mtbf: (0, 0, 0)
+2025-11-22 14:56:24.910 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine9 - mtbf
+2025-11-22 14:56:24.911 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine9 - mtbf
+2025-11-22 14:56:25.003 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine9 - mtbf: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=60996 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\mqo0wh17.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\hv3huwnk.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_modelf37_zh1b\prophet_model-20251122145624.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:25.004 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:25.005 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: -1.26
+2025-11-22 14:56:25.006 | INFO     | __main__:robust_forecasting_pipeline:19 - Forecasting mttr for machine9
+2025-11-22 14:56:25.007 | INFO     | __main__:fixed_forecast_with_arima:3 - Training fixed ARIMA model for machine9 - mttr
+2025-11-22 14:56:25.068 | INFO     | __main__:fixed_forecast_with_arima:31 - Best ARIMA model for machine9-mttr: (0, 0, 0)
+2025-11-22 14:56:25.075 | SUCCESS  | __main__:fixed_forecast_with_arima:56 - ARIMA forecast completed for machine9 - mttr
+2025-11-22 14:56:25.077 | INFO     | __main__:fixed_forecast_with_prophet:3 - Training fixed Prophet model for machine9 - mttr
+2025-11-22 14:56:25.171 | ERROR    | __main__:fixed_forecast_with_prophet:64 - Prophet failed for machine9 - mttr: Error during optimization! Command 'C:\Users\amine\Documents\ACADEMIC\DATA\.venv\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=7124 data file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\gtuxb6ov.json init=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\rt_ox27h.json output file=C:\Users\amine\AppData\Local\Temp\tmppefp5d4o\prophet_model939bmazu\prophet_model-20251122145625.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-11-22 14:56:25.172 | INFO     | __main__:simple_evaluate_model:3 - Performing simple model evaluation...
+2025-11-22 14:56:25.174 | INFO     | __main__:simple_evaluate_model:32 - Simple Evaluation - Baseline Accuracy: nan
+2025-11-22 14:56:25.175 | SUCCESS  | __main__:robust_forecasting_pipeline:69 - Robust forecasting pipeline completed
+2025-11-22 14:57:42.379 | INFO     | __main__:create_simplified_visualizations:3 - Creating simplified visualizations...
+2025-11-22 14:57:42.381 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine1
+2025-11-22 14:57:42.435 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine10
+2025-11-22 14:57:42.484 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine12
+2025-11-22 14:57:42.532 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine2
+2025-11-22 14:57:42.575 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine3
+2025-11-22 14:57:42.616 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine4
+2025-11-22 14:57:42.663 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine5
+2025-11-22 14:57:42.720 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine6
+2025-11-22 14:57:42.821 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine7
+2025-11-22 14:57:42.875 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine8
+2025-11-22 14:57:42.940 | INFO     | __main__:create_simplified_visualizations:6 - Creating visualizations for machine9
+2025-11-22 14:57:42.984 | SUCCESS  | __main__:create_simplified_visualizations:93 - Simplified visualizations created successfully
+2025-11-22 14:58:04.033 | INFO     | __main__:generate_forecast_summary:3 - Generating forecast summary...
+2025-11-22 14:58:04.041 | INFO     | __main__:generate_forecast_summary:55 - === FORECAST SUMMARY ===
+2025-11-22 14:58:04.042 | INFO     | __main__:generate_forecast_summary:58 - 
+machine1:
+2025-11-22 14:58:04.044 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.045 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: 41.9 (arima)
+2025-11-22 14:58:04.046 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.048 | INFO     | __main__:generate_forecast_summary:58 - 
+machine10:
+2025-11-22 14:58:04.050 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.051 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.052 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.054 | INFO     | __main__:generate_forecast_summary:58 - 
+machine12:
+2025-11-22 14:58:04.055 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.055 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.056 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.059 | INFO     | __main__:generate_forecast_summary:58 - 
+machine2:
+2025-11-22 14:58:04.061 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.063 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.064 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.065 | INFO     | __main__:generate_forecast_summary:58 - 
+machine3:
+2025-11-22 14:58:04.066 | INFO     | __main__:generate_forecast_summary:60 -   availability: 43.4 (arima)
+2025-11-22 14:58:04.067 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.069 | INFO     | __main__:generate_forecast_summary:60 -   mttr: 1.3 (arima)
+2025-11-22 14:58:04.071 | INFO     | __main__:generate_forecast_summary:58 - 
+machine4:
+2025-11-22 14:58:04.072 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.073 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.074 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.075 | INFO     | __main__:generate_forecast_summary:58 - 
+machine5:
+2025-11-22 14:58:04.076 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.077 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.078 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.080 | INFO     | __main__:generate_forecast_summary:58 - 
+machine6:
+2025-11-22 14:58:04.081 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.081 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.082 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.083 | INFO     | __main__:generate_forecast_summary:58 - 
+machine7:
+2025-11-22 14:58:04.085 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.086 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.086 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.088 | INFO     | __main__:generate_forecast_summary:58 - 
+machine8:
+2025-11-22 14:58:04.090 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.091 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.091 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.093 | INFO     | __main__:generate_forecast_summary:58 - 
+machine9:
+2025-11-22 14:58:04.094 | INFO     | __main__:generate_forecast_summary:60 -   availability: nan (arima)
+2025-11-22 14:58:04.095 | INFO     | __main__:generate_forecast_summary:60 -   mtbf: nan (arima)
+2025-11-22 14:58:04.095 | INFO     | __main__:generate_forecast_summary:60 -   mttr: nan (arima)
+2025-11-22 14:58:04.096 | INFO     | __main__:generate_forecast_summary:62 - 
+=== ALERTS SUMMARY ===
+2025-11-22 14:58:04.096 | INFO     | __main__:generate_forecast_summary:63 - Total alerts: 2
+2025-11-22 14:58:04.098 | INFO     | __main__:generate_forecast_summary:65 -   machine1: Predicted MTBF 41.9h below 100h threshold
+2025-11-22 14:58:04.099 | INFO     | __main__:generate_forecast_summary:65 -   machine3: Predicted availability 43.4% below 80% threshold
+2025-11-22 14:58:04.109 | SUCCESS  | __main__:generate_forecast_summary:71 - Forecast summary generated and exported
+2025-11-22 14:58:04.110 | SUCCESS  | __main__:<module>:78 - Fixed ARIMA and Prophet forecasting completed successfully!
+2025-11-22 14:58:04.111 | INFO     | __main__:<module>:79 - Key improvements in this version:
+2025-11-22 14:58:04.112 | INFO     | __main__:<module>:80 - 1. Better data quality handling
+2025-11-22 14:58:04.113 | INFO     | __main__:<module>:81 - 2. Simplified model configurations
+2025-11-22 14:58:04.114 | INFO     | __main__:<module>:82 - 3. Robust error handling
+2025-11-22 14:58:04.114 | INFO     | __main__:<module>:83 - 4. Fallback mechanisms
+2025-11-22 14:58:04.116 | INFO     | __main__:<module>:84 - 5. Cleaner visualizations
+2025-11-22 14:58:04.116 | INFO     | __main__:<module>:85 - 6. Practical alert system

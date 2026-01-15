@@ -1,0 +1,100 @@
+% ============================================================
+% ProAct GMAO - Documentation Technique Complète
+% ============================================================
+
+\input{preamble}
+
+\begin{document}
+
+% ============== PAGE DE TITRE ==============
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        % Bande latérale décorative
+        \fill[primary] (current page.north west) rectangle ([xshift=2cm]current page.south west);
+        \node[anchor=north west, inner sep=0, opacity=0.1] at (current page.north west) {
+           % Placeholder pour texture ou motif si voulu
+        };
+    \end{tikzpicture}
+    
+    \centering
+    \vspace*{2cm}
+    
+    % Titre Principal
+    {\sffamily\Huge\bfseries\color{darkgray} Documentation Technique}\par
+    \vspace{0.5cm}
+    {\sffamily\Large\color{secondary} Projet Métier}\par
+    
+    \vspace{3cm}
+    
+    % Authors
+    \begin{minipage}{0.45\textwidth}
+        \begin{flushleft} \large
+            \emph{Réalisé par :}\\
+            \textbf{Mohamed Amine Darraj}\\
+            \textbf{Adam Khald}
+        \end{flushleft}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \begin{flushright} \large
+            \emph{Encadré par :} \\
+            \textbf{Mr Tawfik Masrour}\\
+            \textbf{Mme Ibtissam Elhassani}
+        \end{flushright}
+    \end{minipage}
+
+    \vfill
+    
+    % Date
+    {\sffamily\large \today}\par
+    \vspace{1cm}
+    
+    % Version
+    {\sffamily\small\color{lightgray!50!gray} Version 2.0.0 -- Build \today}
+\end{titlepage}
+
+% ============== AVANT-PROPOS & TOC ==============
+\pagenumbering{roman}
+
+\tableofcontents
+\clearpage
+
+% Liste des figures et tableaux (optionnel)
+% \listoffigures
+% \listoftables
+% \clearpage
+
+% ============== CONTENU PRINCIPAL ==============
+\pagenumbering{arabic}
+
+% Introduction & Vue d'ensemble
+\input{chapters/01-introduction}
+\input{chapters/02-overview}
+
+% Architecture & Backend
+\input{chapters/03-frontend}
+\input{chapters/04-auth}
+\input{chapters/05-backend}
+\input{chapters/06-database}
+
+% Fonctionnalités Métier
+\input{chapters/07-interventions}
+\input{chapters/08-technician-submissions}
+\input{chapters/09-kpi}
+
+% Intelligence Artificielle
+\input{chapters/10-ai}
+
+% Sécurité & Rôles
+\input{chapters/11-security}
+\input{chapters/12-ux-roles}
+
+% Performance & Tests
+\input{chapters/13-performance}
+\input{chapters/14-testing}
+
+% Conclusion & Déploiement
+\input{chapters/15-deployment}
+\input{chapters/16-limitations}
+\input{chapters/17-future}
+
+\end{document}

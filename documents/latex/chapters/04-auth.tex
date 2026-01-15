@@ -1,0 +1,142 @@
+% ============================================================
+% Chapitre 4 : Authentification et Autorisation
+% ============================================================
+
+\chapter{Authentification et Autorisation}
+\label{chap:auth}
+
+\section{Architecture de Sécurité}
+
+ProAct implémente une architecture d'authentification moderne basée sur \textbf{JWT} (JSON Web Tokens) avec \textbf{Supabase Auth} comme fournisseur d'identité. Le système adopte une approche de \textbf{single source of truth} où les rôles utilisateurs sont stockés dans les métadonnées Supabase.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=1cm and 1.2cm]
+    % Nodes
+    \node[component, minimum width=2.5cm] (user) {Utilisateur};
+    \node[component, right=1.5cm of user, fill=secondary!15, minimum width=2.5cm] (supabase) {Supabase};
+    \node[component, below=1.2cm of supabase, fill=accent!15, minimum width=2.5cm] (frontend) {Frontend};
+    \node[component, below=1.2cm of frontend, fill=primary!15, minimum width=2.5cm] (backend) {Backend};
+    
+    % Arrows
+    \draw[arrow] (user) -- node[above, font=\footnotesize] {1. Login} (supabase);
+    \draw[arrow] (supabase) -- node[right, font=\footnotesize] {2. JWT} (frontend);
+    \draw[arrow] (frontend) -- node[right, font=\footnotesize] {3. API} (backend);
+    \draw[arrow, dashed] (backend.east) -- ++(1,0) |- node[right, font=\footnotesize, pos=0.25] {4. Verify} (supabase.east);
+\end{tikzpicture}
+\caption{Flux d'authentification}
+\label{fig:auth-flow}
+\end{figure}
+
+\section{Intégration Makerkit}
+
+Le boilerplate Makerkit fournit une intégration Supabase clé en main incluant :
+
+\begin{itemize}
+    \item Configuration client Supabase (browser et server)
+    \item Pages d'authentification pré-construites
+    \item Middleware de protection des routes
+    \item Gestion des sessions avec refresh automatique
+\end{itemize}
+
+\section{Modèle de Données Utilisateur}
+
+Le backend définit une dataclass \tech{AuthUser} avec :
+
+\begin{itemize}
+    \item \textbf{id} : Identifiant Supabase unique (claim \tech{sub})
+    \item \textbf{email} : Adresse email de l'utilisateur
+    \item \textbf{role} : Rôle extrait de \tech{app\_metadata}
+    \item \textbf{raw\_claims} : Claims JWT bruts
+\end{itemize}
+
+Le système définit quatre rôles hiérarchiques :
+
+\begin{table}[H]
+\centering
+\caption{Hiérarchie des rôles}
+\label{tab:roles-enum}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Rôle} & \textbf{Valeur} & \textbf{Description} \\
+\midrule
+\role{Admin} & admin & Accès total, gestion système \\
+\role{Supervisor} & supervisor & Gestion opérationnelle \\
+\role{Technician} & technician & Exécution interventions \\
+\role{Viewer} & viewer & Consultation seule \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Vérification JWT}
+
+Le processus de vérification comprend :
+
+\begin{enumerate}
+    \item Extraction du token depuis l'en-tête \tech{Authorization: Bearer <token>}
+    \item Vérification de la signature avec \tech{SUPABASE\_JWT\_SECRET}
+    \item Validation de l'expiration et des claims requis
+    \item Extraction du rôle depuis \tech{app\_metadata.role}
+\end{enumerate}
+
+\section{Contrôle d'Accès (RBAC)}
+
+Le système fournit une factory \tech{require\_role()} qui crée des dépendances FastAPI pour le contrôle d'accès. Des raccourcis sont disponibles : \tech{require\_admin()}, \tech{require\_supervisor\_or\_admin()}, \tech{require\_technician\_or\_above()}.
+
+\section{Matrice des Permissions}
+
+\begin{table}[H]
+\centering
+\caption{Matrice des permissions par endpoint}
+\label{tab:permissions-matrix}
+\small
+\begin{tabularx}{\textwidth}{@{}X c c c c@{}}
+\toprule
+\textbf{Endpoint} & \textbf{Adm} & \textbf{Sup} & \textbf{Tech} & \textbf{View} \\
+\midrule
+\multicolumn{5}{l}{\textit{Équipements}} \\
+GET /equipment & \checkmark & \checkmark & \checkmark & \checkmark \\
+POST /equipment & \checkmark & \checkmark & -- & -- \\
+DELETE /equipment/:id & \checkmark & -- & -- & -- \\
+\midrule
+\multicolumn{5}{l}{\textit{Interventions}} \\
+GET /interventions & \checkmark & \checkmark & \checkmark & \checkmark \\
+POST /interventions & \checkmark & \checkmark & \checkmark & -- \\
+\midrule
+\multicolumn{5}{l}{\textit{IA}} \\
+POST /rag/query & \checkmark & \checkmark & \checkmark & \checkmark \\
+POST /ocr/extract & \checkmark & \checkmark & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Sécurité des Sessions}
+
+\begin{warningbox}[Bonnes Pratiques Implémentées]
+\begin{itemize}
+    \item Tokens JWT signés avec secret cryptographique (256 bits min)
+    \item Expiration des tokens configurée (par défaut 1 heure)
+    \item Refresh tokens pour renouvellement transparent
+    \item Validation stricte de tous les claims JWT requis
+    \item Logging des tentatives d'accès non autorisées
+\end{itemize}
+\end{warningbox}
+
+\section{Gestion des Erreurs}
+
+\begin{table}[H]
+\centering
+\caption{Codes d'erreur d'authentification}
+\label{tab:auth-errors}
+\small
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Code} & \textbf{Situation} & \textbf{Action} \\
+\midrule
+401 Unauthorized & Token manquant/invalide & Redirection vers login \\
+403 Forbidden & Rôle insuffisant & Affichage erreur \\
+500 Server Error & JWT\_SECRET non configuré & Alerte admin \\
+\bottomrule
+\end{tabularx}
+\end{table}
