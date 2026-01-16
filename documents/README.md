@@ -9,20 +9,10 @@ Les données historiques utilisées pour l'entraînement des modèles IA sont st
 ### 1. Analyse AMDEC (`AMDEC_clean.csv`)
 Données relatives à la fiabilité et aux risques.
 *   **Usage** : Entraînement du modèle de criticité (Predictive Maintenance).
-*   **Colonnes Clés** :
-    *   `Equipement` : ID de la machine.
-    *   `Mode_Defaillance` : Type de panne.
-    *   `Gravite` (G), `Frequence` (F), `Non-Detection` (D).
-    *   `RPN` : Risk Priority Number ($G \times F \times D$).
 
 ### 2. Historique GMAO (`GMAO_integrator_clean.csv`)
 Journal complet des interventions passées.
 *   **Usage** : Base de connaissances pour le RAG et le Copilot.
-*   **Colonnes Clés** :
-    *   `Date_Intervention` : Timestamp.
-    *   `Description` : Texte libre du problème.
-    *   `Action_Corrective` : Solution appliquée.
-    *   `Temps_Arret` : Durée de l'indisponibilité.
 
 ### 3. Charge de Travail (`Workload_clean.csv`)
 Données opérationnelles sur les techniciens.
