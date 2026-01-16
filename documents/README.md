@@ -39,14 +39,14 @@ Pour passer d'un mode "Batch" à un mode "Temps Réel" (ex: capteurs IoT sur mac
 
 ```mermaid
 graph LR
-    Sensors[Capteurs IoT] -->|MQTT| Broker[MQTT Broker]
-    Broker -->|Sub| Ingest[Service Ingestion (Python)]
+    Sensors["Capteurs IoT"] -->|MQTT| Broker["MQTT Broker"]
+    Broker -->|Sub| Ingest["Service Ingestion (Python)"]
     Ingest -->|Write| Redis[(Redis Stream)]
     Ingest -->|Archive| DB[(PostgreSQL)]
     
-    Processing[FastAPI Worker] -->|Read| Redis
-    Processing -->|Detect| Anomaly[Modèle Détection Anomalie]
-    Anomaly -->|Alert| Frontend[Dashboard WebSocket]
+    Processing["FastAPI Worker"] -->|Read| Redis
+    Processing -->|Detect| Anomaly["Modèle Détection Anomalie"]
+    Anomaly -->|Alert| Frontend["Dashboard WebSocket"]
 ```
 
 ### Étapes d'Implémentation
