@@ -14,7 +14,7 @@
 
 L'objectif est de réduire les temps d'arrêt non planifiés en fournissant aux techniciens et superviseurs des outils d'aide à la décision basés sur les données.
 
-![Dashboard Preview](docs/assets/dashboard-preview.png)
+![Dashboard Preview](documents/images/dashboard.png)
 
 ## Architecture du Système
 
