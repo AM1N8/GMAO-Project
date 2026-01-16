@@ -118,6 +118,8 @@ pip install -r requirements.txt
 # Configuration des variables d'environnement
 cp .env.example .env
 # Éditer .env avec les identifiants base de données
+
+docker-compose up --build 
 ```
 
 ### 2. Configuration Frontend
@@ -152,4 +154,4 @@ La documentation technique détaillée est disponible au format PDF dans le doss
 **Auteurs** : Mohamed Amine Darraj, Adam Khald  
 **Encadrement** : Mr Tawfik Masrour, Mme Ibtissam Elhassani  
 
-*Projet Académique - Génie Industriel*
+*Projet Académique - Génie IADT*
